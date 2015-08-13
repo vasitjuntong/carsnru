@@ -1,0 +1,8 @@
+﻿
+jlminimart
+--------------------------------
+username = jlminimart@asevensoft.com
+password = x4lNjQHG
+
+DB username = asevenso_mart
+DB password = 6zdrKpDs

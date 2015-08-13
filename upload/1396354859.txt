@@ -1,0 +1,8 @@
+﻿
+CCTV
+-------------------------------
+username = cctv@asevensoft.com
+password = PaG0XoRA
+
+DB username = asevenso_cctv
+DB password = IsR7ifRV
