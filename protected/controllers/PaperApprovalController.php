@@ -26,13 +26,13 @@ class PaperApprovalController extends Controller {
 
     public function actionIndex() {
         $model = TypeCar::model()->findAll();
-
         $this->render('index', array(
             'model' => $model,
         ));
     }
 
     public function filtercheckMember($filterChain) {
+
         if ($id = Yii::app()->getRequest()->getParam('id')) {
             $model = $this->loadModel($id);
             if ($model->member_id == Yii::app()->user->id)

@@ -57,7 +57,8 @@ $this->menu = array(
                 ),
                 array(
                     'name' => 'accept.status',
-                    'value' => '($data->accept->status != null) ? Status::$doing[$data->accept->status] : "<span class=\"bg-info\">รอดำเนินการ</span>"',
+                    'type' => 'html',
+                    'value' => '($data->accept != null) ? Status::$doing[$data->accept->status] : "<span class=\"bg-info\">รอดำเนินการ</span>"',
                     'headerHtmlOptions' => array('style' => 'width: 10%; text-align: center;'),
                     'htmlOptions' => array('style' => 'width: 10%; text-align: center;'),
                 ),

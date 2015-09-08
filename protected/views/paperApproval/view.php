@@ -67,12 +67,12 @@ $this->menu = array(
             ),
             array(
                 'name' => 'departure_time',
-                'value' => Tools::DateTimeToShow($model->departure_time, '/', true),
+                'value' => Tools::DateTimeToShow($model->departure_time, '/', false),
 //            'value' => $model->departure_time,
             ),
             array(
                 'name' => 'back_time',
-                'value' => Tools::DateTimeToShow($model->back_time, '/', true),
+                'value' => Tools::DateTimeToShow($model->back_time, '/', false),
             ),
             array(
                 'name' => 'status',

@@ -59,7 +59,7 @@ return array(
             'connectionString' => 'mysql:host=localhost;dbname=asevensoft_car',
             'emulatePrepare' => true,
             'username' => 'root',
-            'password' => 'Vasit14802',
+            'password' => '',
             'charset' => 'utf8',
         ),
         'errorHandler' => array(
