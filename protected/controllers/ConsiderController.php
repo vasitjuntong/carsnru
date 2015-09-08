@@ -27,7 +27,7 @@ class ConsiderController extends Controller {
         $model = new PaperApproval('search');
         $model->unsetAttributes();
         if (isset($_GET['PaperApproval'])) {
-            $model->getAttributes = $_GET['PaperApproval'];
+            $model->attributes = $_GET['PaperApproval'];
         }
         
         $modelBus = new PaperApprovalBus('search');

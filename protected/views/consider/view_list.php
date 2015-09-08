@@ -20,7 +20,7 @@
                 <?php echo $model->getAttributeLabel('create_at'); ?>
             </div>
             <div class="col-lg-4">
-                <?php echo Tools::DateTimeToShow($model->create_at, '/', true); ?>
+                <?php echo Tools::DateTimeToShow($model->create_at, '/', false); ?>
             </div>
         </div>
         <div class="form-group">
@@ -91,7 +91,7 @@
                 <?php echo $model->getAttributeLabel('departure_time'); ?>
             </div>
             <div class="col-lg-10">
-                <?php echo Tools::DateTimeToShow($model->departure_time, '/', true); ?>
+                <?php echo Tools::DateTimeToShow($model->departure_time, '/', false); ?>
             </div>
         </div>
         <div class="form-group">
@@ -99,10 +99,10 @@
                 <?php echo $model->getAttributeLabel('back_time'); ?>
             </div>
             <div class="col-lg-10">
-                <?php echo Tools::DateTimeToShow($model->back_time, '/', true); ?>
+                <?php echo Tools::DateTimeToShow($model->back_time, '/', false); ?>
             </div>
         </div>
-        <?php if ($model->accept->status == 1) { ?>
+        <?php if ($model->accept != null && $model->accept->status == 1) { ?>
             <div class="panel-default">
                 <div class="panel-heading">
                     จัดการ

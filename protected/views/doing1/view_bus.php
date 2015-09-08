@@ -12,7 +12,7 @@
         <?php echo $model->getAttributeLabel('create_at'); ?>
     </label>
     <div class="col-lg-3">
-        <?php echo Tools::DateTimeToShow($model->create_at, '/', true); ?>
+        <?php echo Tools::DateTimeToShow($model->create_at, '/'); ?>
     </div>
 </div>
 <div class="row">

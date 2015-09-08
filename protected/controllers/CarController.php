@@ -36,13 +36,12 @@ class CarController extends Controller {
         $model->create_at = date('Y-m-d');
 
         // Uncomment the following line if AJAX validation is needed
-        // $this->performAjaxValidation($model);
+         $this->performAjaxValidation($model);
 
         if (isset($_POST['Car']) && isset($_POST['File'])) {
             $model->attributes = $_POST['Car'];
             $file->attributes = $_POST['File'];
             $model->date_registration = Tools::dateToSave($model->date_registration);
-
             $file->file = CUploadedFile::getInstance($file, 'file');
             if ($file->file != null) {
                 $filename = time() . '.' . $file->file->getExtensionName();

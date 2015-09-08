@@ -64,13 +64,13 @@
     <tr>
         <td height="0">&nbsp;</td>
         <td height="25" class="txtBlackBold"><?php echo $model->getAttributeLabel('departure_time'); ?></td>
-        <td height="0" colspan="2" class="txtGraySmall"><?php echo Tools::DateTimeToShow($model->departure_time, '/', true); ?></td>
+        <td height="0" colspan="2" class="txtGraySmall"><?php echo Tools::DateTimeToShow($model->departure_time, '/', false); ?></td>
         <td height="13" class="txtGraySmall">&nbsp;</td>
     </tr>
     <tr>
         <td height="25">&nbsp;</td>
         <td height="25" class="txtBlackBold"><?php echo $model->getAttributeLabel('back_time'); ?></td>
-        <td height="25" colspan="2" class="txtGraySmall"><?php echo Tools::DateTimeToShow($model->back_time, '/', true); ?></td>
+        <td height="25" colspan="2" class="txtGraySmall"><?php echo Tools::DateTimeToShow($model->back_time, '/', false); ?></td>
         <td height="25" class="txtGraySmall">&nbsp;</td>
     </tr>
 </table>

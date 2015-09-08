@@ -44,7 +44,7 @@ $this->menu = array(
             array(
                 'type' => 'raw',
                 'name' => 'pic',
-                'value' => CHtml::image(Yii::app()->params['pathUpload'] . $model->pic, '', array(
+                'value' => CHtml::image(Yii::app()->params['pathUploadToShow'] . $model->pic, '', array(
 //                'class' => 'form_image',
                     'style' => 'width: 430px;  text-align: center;'
                 )),

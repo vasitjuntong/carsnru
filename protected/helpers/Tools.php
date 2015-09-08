@@ -8,13 +8,13 @@ class Tools {
             if ($time) // ถ้าเป็น 
                 list($date, $_time) = explode(' ', $date);
 
-            $_d = explode('-', $date);
+            list($y, $m, $d) = explode('-', $date);
 
             if ($time)
 //                return $_d[2] . $sparator . $_d[1] . $sparator . ($_d[0] + 543) . ' ' . $_time;
-                return $_d[2] . $sparator . $_d[1] . $sparator . ($_d[0]) . ' ' . $_time;
+                return $d . $sparator . $m . $sparator . ($y) . ' ' . $_time;
             else
-                return $_d[2] . $sparator . $_d[1] . $sparator . ($_d[0]);
+                return $d . $sparator . $m . $sparator . ($y);
 //                return $_d[2] . $sparator . $_d[1] . $sparator . ($_d[0] + 543);
         }else {
             return '-';
