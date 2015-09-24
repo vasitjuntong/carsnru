@@ -65,7 +65,7 @@ class Doing3Controller extends Controller {
             $paperAccept = Accept::model()->find(array(
                 'condition' => 'paper_id = :paper_id and type_paper_id = 2',
                 'params' => array(
-                    ':paper_id' => $model->paper_approval_id,
+                    ':paper_id' => $model->paper_approval_bus_id,
                 ),
                 'order' => 'accept_id desc',
             ));

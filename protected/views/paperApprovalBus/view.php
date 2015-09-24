@@ -51,11 +51,11 @@ $this->menu = array(
             'days',
             array(
                 'name' => 'date_start',
-                'value' => Tools::DateTimeToShow($model->date_start, '/'),
+                'value' => Tools::DateTimeToShow($model->date_start, '/', false),
             ),
             array(
                 'name' => 'date_end',
-                'value' => Tools::DateTimeToShow($model->date_end, '/'),
+                'value' => Tools::DateTimeToShow($model->date_end, '/', false),
             ),
             array(
                 'name' => 'time_start',

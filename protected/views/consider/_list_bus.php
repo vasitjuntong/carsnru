@@ -1,6 +1,6 @@
 <?php
 $this->widget('zii.widgets.grid.CGridView', array(
-    'id' => 'paper-approval-grid',
+    'id' => 'paper-approval-bus-grid',
     'dataProvider' => $dataProvider,
     'filter' => $model,
 //    'summaryText' => Yii::app()->params['summaryTextGrid'],
