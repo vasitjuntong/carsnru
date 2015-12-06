@@ -27,19 +27,23 @@ class CalendarController extends Controller {
         $evens = array();
         $model = PaperApproval::model()->acceptPaper()->findAll();
         foreach ($model as $m) {
-            array_push($evens, array( 
-                'title' => 'ทะเบียนรถ : ' . $m->paperDetailAccept->car->license_no,
-                'start' => $m->departure_time,
-                'end' => $m->back_time,
-            ));
+            if($m->paperDetailAccept->car != null){
+                array_push($evens, array(
+                    'title' => 'ทะเบียนรถ : ' . $m->paperDetailAccept->car->license_no,
+                    'start' => $m->departure_time,
+                    'end' => $m->back_time,
+                ));
+            }
         }
         $modelBus = PaperApprovalBus::model()->acceptPaper()->findAll();
         foreach ($modelBus as $ms) {
-            array_push($evens, array( 
-                'title' => 'ทะเบียนรถ : ' . $ms->paperDetailBusAccept->car->license_no,
-                'start' => $ms->date_start,
-                'end' => $ms->date_end,
-            ));
+            if ($ms->paperDetailBusAccept->car != null){
+                array_push($evens, array(
+                    'title' => 'ทะเบียนรถ : ' . $ms->paperDetailBusAccept->car->license_no,
+                    'start' => $ms->date_start,
+                    'end'   => $ms->date_end,
+                ));
+            }
         }
 //        echo '<pre>';
 //        print_r($evens);die;
