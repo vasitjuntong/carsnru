@@ -1,6 +1,6 @@
 <div id="top-nav" class="skin-6 fixed">
     <div class="brand">
-        <a href="<?php echo Yii::app()->createUrl('/site/index'); ?>" class="text-white">
+        <a href="<?php echo Yii::app()->createUrl('/'); ?>" class="text-white">
             <span><?php echo Yii::app()->name; ?></span>
             <span class="text-toggle">SNRU</span>
         </a>
