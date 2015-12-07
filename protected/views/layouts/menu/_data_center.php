@@ -16,8 +16,8 @@
                 </span>
             </a>
         </li>
-        <li><a href="<?php echo Yii::app()->createUrl('/position'); ?>"><span class="submenu-label">ข้อมูลตำแหน่ง</span></a></li>
-        <li><a href="<?php echo Yii::app()->createUrl('/typeCar'); ?>"><span class="submenu-label">ข้อมูลประเภทรถยนต์</span></a></li>
+        <!-- <li><a href="<?php echo Yii::app()->createUrl('/position'); ?>"><span class="submenu-label">ข้อมูลตำแหน่ง</span></a></li> -->
+        <!-- <li><a href="<?php echo Yii::app()->createUrl('/typeCar'); ?>"><span class="submenu-label">ข้อมูลประเภทรถยนต์</span></a></li> -->
         <li><a href="<?php echo Yii::app()->createUrl('/brand'); ?>"><span class="submenu-label">ข้อมูลยี่ห้อ</span></a></li>
         <li><a href="<?php echo Yii::app()->createUrl('/place'); ?>"><span class="submenu-label">ข้อมูลจุดนัดขึ้นรถ</span></a></li>
         <li><a href="<?php echo Yii::app()->createUrl('/news'); ?>"><span class="submenu-label">ข่าวประชาสัมพันธ์</span></a></li>

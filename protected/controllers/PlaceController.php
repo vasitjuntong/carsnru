@@ -65,7 +65,13 @@ class PlaceController extends Controller {
     }
 
     public function actionDelete($id) {
-        $this->loadModel($id)->delete();
+        $place = $this->loadModel($id);
+
+        if($place->paperApprovals != null || $place->paperApprovalBus != null){
+            throw new CHttpException(404, 'ได้ถูกใช้งานไปแล้ว กรุณาตรวจสอบอีกครั้ง');
+        }
+
+        $place->delete();
 
         // if AJAX request (triggered by deletion via admin grid view), we should not redirect the browser
         if (!isset($_GET['ajax']))

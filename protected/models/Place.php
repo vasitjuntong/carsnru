@@ -15,6 +15,7 @@ class Place extends PlaceBase {
     public function relations() {
         return array(
             'paperApprovals' => array(self::HAS_MANY, 'PaperApproval', 'place_id'),
+            'paperApprovalBus' => array(self::HAS_MANY, 'PaperApprovalBus', 'place_id'),
         );
     }
 
