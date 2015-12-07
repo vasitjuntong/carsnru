@@ -35,7 +35,7 @@ $this->menu = array(
                 ),
                 array(
                     'name' => 'car_id',
-                    'value' => '$data->car->license_no',
+                    'value' => '$data->car != null ? $data->car->license_no : "-"',
                 ),
                 array(
                     'name' => 'personnel_id',

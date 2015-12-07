@@ -58,8 +58,8 @@ return array(
         'db' => array(
             'connectionString' => 'mysql:host=localhost;dbname=asevensoft_car',
             'emulatePrepare' => true,
-            'username' => 'root',
-            'password' => '',
+            'username' => 'homestead',
+            'password' => 'secret',
             'charset' => 'utf8',
         ),
         'errorHandler' => array(

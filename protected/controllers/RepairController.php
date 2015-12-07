@@ -70,6 +70,10 @@ class RepairController extends Controller {
         $model = $this->loadModel($id);
         $file = new FileOther();
 
+        if($model->car == null)
+            throw new CHttpException(500, "มีบางอย่างผิดพลาด กรุณาลองใหม่อีกครั้ง");
+            
+
         // Uncomment the following line if AJAX validation is needed
         // $this->performAjaxValidation($model);
 
@@ -106,7 +110,9 @@ class RepairController extends Controller {
     }
 
     public function actionDelete($id) {
-        $this->loadModel($id)->delete();
+        $repair = $this->loadModel($id);
+
+        $repair->delete();
 
         // if AJAX request (triggered by deletion via admin grid view), we should not redirect the browser
         if (!isset($_GET['ajax']))

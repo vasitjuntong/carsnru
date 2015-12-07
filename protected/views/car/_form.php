@@ -125,7 +125,7 @@ $form = $this->beginWidget('CActiveForm', array(
     <div class="col-lg-2">
         <?php
         echo $form->dropDownList($model, 'personnel_id', Lists::personnel(array(
-            'condition' => 'position_id between 1 and 3',
+            'condition' => 'position_id in(1, 2, 3, 7)',
         )), array(
             'empty' => $this->labelController['messageSelect'],
             'class' => 'form-control chzn-select',
