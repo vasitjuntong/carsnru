@@ -33,6 +33,7 @@ class Car extends CarBase {
 
     public function relations() {
         return array(
+            'repairs'=>array(self::HAS_MANY, 'Repair', 'car_id'),
             'personnel' => array(self::BELONGS_TO, 'Personnel', 'personnel_id'),
             'brand' => array(self::BELONGS_TO, 'Brand', 'brand_id'),
             'personnels' => array(self::HAS_MANY, 'Personnel', 'car_id'),
