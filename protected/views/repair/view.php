@@ -50,7 +50,7 @@ $this->menu = array(
             array(
                 'type' => 'raw',
                 'name' => 'file',
-                'value' => CHtml::link($model->file, Yii::app()->params['pathUpload'] . $model->file, array(
+                'value' => CHtml::link($model->file, "/".Yii::app()->params['pathUpload'] . $model->file, array(
                     'target' => '_bank'
                 )),
             ),
