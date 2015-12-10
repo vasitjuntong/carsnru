@@ -2,7 +2,7 @@
     <div class="row form-horizontal form-border">
         <div class="form-group ">
             <div style="text-align: center;">
-                <img src="img/snru.jpg" width="79" height="93" />
+                <img src="/img/snru.jpg" width="79" height="93" />
                 <br />
                 <span class="txtBlackBold">รายละเอียดการขออนุญาตใช้รถยนต์ส่วนกลาง</span><br />
                 <span class="txtGraySmall">หน่วยยานภาหนะ มหาวิทยาลัยราชภัฏสกลนคร</span>

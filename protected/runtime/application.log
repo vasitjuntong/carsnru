@@ -6732,3 +6732,721 @@ Stack trace:
 REQUEST_URI=/upload/1449411974.jpg
 HTTP_REFERER=http://car.loc/index.php/car/9
 ---
+2015/12/10 19:11:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/1439459474.jpg".' in /home/vagrant/Code/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/14394594...')
+#1 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/1439459474.jpg
+HTTP_REFERER=http://car.loc/index.php
+---
+2015/12/10 19:11:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/1449411890.jpg".' in /home/vagrant/Code/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/14494118...')
+#1 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/1449411890.jpg
+HTTP_REFERER=http://car.loc/index.php
+---
+2015/12/10 19:11:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/1449411890.jpg".' in /home/vagrant/Code/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/14494118...')
+#1 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/1449411890.jpg
+HTTP_REFERER=http://car.loc/index.php
+---
+2015/12/10 19:11:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/1439459474.jpg".' in /home/vagrant/Code/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/14394594...')
+#1 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/1439459474.jpg
+HTTP_REFERER=http://car.loc/index.php
+---
+2015/12/10 19:11:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "_include/img/progress.gif".' in /home/vagrant/Code/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('_include/img/pr...')
+#1 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/_include/img/progress.gif
+HTTP_REFERER=http://car.loc/_include/css/supersized.css
+---
+2015/12/10 19:11:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/1449411890.jpg".' in /home/vagrant/Code/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/14494118...')
+#1 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/1449411890.jpg
+HTTP_REFERER=http://car.loc/index.php/admin/index
+---
+2015/12/10 19:11:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/1449411890.jpg".' in /home/vagrant/Code/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/14494118...')
+#1 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/1449411890.jpg
+HTTP_REFERER=http://car.loc/index.php/admin/index
+---
+2015/12/10 19:11:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/1449411890.jpg".' in /home/vagrant/Code/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/14494118...')
+#1 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/1449411890.jpg
+HTTP_REFERER=http://car.loc/index.php/consider/index
+---
+2015/12/10 19:11:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/1449411890.jpg".' in /home/vagrant/Code/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/14494118...')
+#1 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/1449411890.jpg
+HTTP_REFERER=http://car.loc/index.php/consider/index
+---
+2015/12/10 19:12:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/1439459474.jpg".' in /home/vagrant/Code/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/14394594...')
+#1 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/1439459474.jpg
+HTTP_REFERER=http://car.loc/index.php
+---
+2015/12/10 19:12:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/1449411890.jpg".' in /home/vagrant/Code/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/14494118...')
+#1 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/1449411890.jpg
+HTTP_REFERER=http://car.loc/index.php
+---
+2015/12/10 19:12:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/1449411890.jpg".' in /home/vagrant/Code/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/14494118...')
+#1 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/1449411890.jpg
+HTTP_REFERER=http://car.loc/index.php
+---
+2015/12/10 19:12:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/1439459474.jpg".' in /home/vagrant/Code/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/14394594...')
+#1 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/1439459474.jpg
+HTTP_REFERER=http://car.loc/index.php
+---
+2015/12/10 19:12:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "_include/img/progress.gif".' in /home/vagrant/Code/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('_include/img/pr...')
+#1 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/_include/img/progress.gif
+HTTP_REFERER=http://car.loc/index.php
+---
+2015/12/10 19:12:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/1449412247.jpg".' in /home/vagrant/Code/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/14494122...')
+#1 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/1449412247.jpg
+HTTP_REFERER=http://car.loc/index.php/admin/index
+---
+2015/12/10 19:12:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/1449412247.jpg".' in /home/vagrant/Code/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/14494122...')
+#1 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/1449412247.jpg
+HTTP_REFERER=http://car.loc/index.php/admin/index
+---
+2015/12/10 19:12:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/1449412247.jpg".' in /home/vagrant/Code/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/14494122...')
+#1 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/1449412247.jpg
+HTTP_REFERER=http://car.loc/index.php/doing1
+---
+2015/12/10 19:12:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/1449412247.jpg".' in /home/vagrant/Code/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/14494122...')
+#1 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/1449412247.jpg
+HTTP_REFERER=http://car.loc/index.php/doing1
+---
+2015/12/10 19:12:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/1439459474.jpg".' in /home/vagrant/Code/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/14394594...')
+#1 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/1439459474.jpg
+HTTP_REFERER=http://car.loc/index.php
+---
+2015/12/10 19:12:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/1449411890.jpg".' in /home/vagrant/Code/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/14494118...')
+#1 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/1449411890.jpg
+HTTP_REFERER=http://car.loc/index.php
+---
+2015/12/10 19:12:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/1439459474.jpg".' in /home/vagrant/Code/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/14394594...')
+#1 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/1439459474.jpg
+HTTP_REFERER=http://car.loc/index.php
+---
+2015/12/10 19:12:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/1449411890.jpg".' in /home/vagrant/Code/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/14494118...')
+#1 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/1449411890.jpg
+HTTP_REFERER=http://car.loc/index.php
+---
+2015/12/10 19:12:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "_include/img/progress.gif".' in /home/vagrant/Code/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('_include/img/pr...')
+#1 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/_include/img/progress.gif
+HTTP_REFERER=http://car.loc/index.php
+---
+2015/12/10 19:13:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/1449411890.jpg".' in /home/vagrant/Code/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/14494118...')
+#1 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/1449411890.jpg
+HTTP_REFERER=http://car.loc/index.php
+---
+2015/12/10 19:13:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/1439459474.jpg".' in /home/vagrant/Code/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/14394594...')
+#1 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/1439459474.jpg
+HTTP_REFERER=http://car.loc/index.php
+---
+2015/12/10 19:13:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/1449411890.jpg".' in /home/vagrant/Code/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/14494118...')
+#1 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/1449411890.jpg
+HTTP_REFERER=http://car.loc/index.php
+---
+2015/12/10 19:13:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "_include/img/progress.gif".' in /home/vagrant/Code/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('_include/img/pr...')
+#1 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/_include/img/progress.gif
+HTTP_REFERER=http://car.loc/index.php
+---
+2015/12/10 19:13:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/1439459474.jpg".' in /home/vagrant/Code/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/14394594...')
+#1 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/1439459474.jpg
+HTTP_REFERER=http://car.loc/index.php
+---
+2015/12/10 19:13:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/1449411974.jpg".' in /home/vagrant/Code/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/14494119...')
+#1 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/1449411974.jpg
+HTTP_REFERER=http://car.loc/index.php/admin/index
+---
+2015/12/10 19:13:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/1449411974.jpg".' in /home/vagrant/Code/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/14494119...')
+#1 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/1449411974.jpg
+HTTP_REFERER=http://car.loc/index.php/report/paper
+---
+2015/12/10 19:45:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'ระบบไม่สามารถดำเนินการ "_include" ตามคำสั่งได้' in /home/vagrant/Code/framework/web/CController.php:483
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CController.php(270): CController->missingAction('_include')
+#1 /home/vagrant/Code/framework/web/CWebApplication.php(282): CController->run('_include')
+#2 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('site/_include/j...')
+#3 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/_include/js/modernizr.js
+HTTP_REFERER=http://car.loc/index.php/site/index
+---
+2015/12/10 19:45:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'ระบบไม่สามารถดำเนินการ "img" ตามคำสั่งได้' in /home/vagrant/Code/framework/web/CController.php:483
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CController.php(270): CController->missingAction('img')
+#1 /home/vagrant/Code/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('site/img/Logo.p...')
+#3 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/img/Logo.png
+HTTP_REFERER=http://car.loc/index.php/site/index
+---
+2015/12/10 19:45:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'ระบบไม่สามารถดำเนินการ "upload" ตามคำสั่งได้' in /home/vagrant/Code/framework/web/CController.php:483
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CController.php(270): CController->missingAction('upload')
+#1 /home/vagrant/Code/framework/web/CWebApplication.php(282): CController->run('upload')
+#2 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('site/upload/noi...')
+#3 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/upload/noimage.jpg
+HTTP_REFERER=http://car.loc/index.php/site/index
+---
+2015/12/10 19:45:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'ระบบไม่สามารถดำเนินการ "upload" ตามคำสั่งได้' in /home/vagrant/Code/framework/web/CController.php:483
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CController.php(270): CController->missingAction('upload')
+#1 /home/vagrant/Code/framework/web/CWebApplication.php(282): CController->run('upload')
+#2 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('site/upload/144...')
+#3 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/upload/1449411890.jpg
+HTTP_REFERER=http://car.loc/index.php/site/index
+---
+2015/12/10 19:45:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'ระบบไม่สามารถดำเนินการ "upload" ตามคำสั่งได้' in /home/vagrant/Code/framework/web/CController.php:483
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CController.php(270): CController->missingAction('upload')
+#1 /home/vagrant/Code/framework/web/CWebApplication.php(282): CController->run('upload')
+#2 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('site/upload/143...')
+#3 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/upload/1439459474.jpg
+HTTP_REFERER=http://car.loc/index.php/site/index
+---
+2015/12/10 19:45:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "_include/img/progress.gif".' in /home/vagrant/Code/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('_include/img/pr...')
+#1 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/_include/img/progress.gif
+HTTP_REFERER=http://car.loc/_include/css/supersized.css
+---
+2015/12/10 19:45:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'ระบบไม่สามารถดำเนินการ "_include" ตามคำสั่งได้' in /home/vagrant/Code/framework/web/CController.php:483
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CController.php(270): CController->missingAction('_include')
+#1 /home/vagrant/Code/framework/web/CWebApplication.php(282): CController->run('_include')
+#2 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('site/_include/i...')
+#3 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/_include/img/slider-images/image01.jpg
+HTTP_REFERER=http://car.loc/index.php/site/index
+---
+2015/12/10 19:45:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'ระบบไม่สามารถดำเนินการ "_include" ตามคำสั่งได้' in /home/vagrant/Code/framework/web/CController.php:483
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CController.php(270): CController->missingAction('_include')
+#1 /home/vagrant/Code/framework/web/CWebApplication.php(282): CController->run('_include')
+#2 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('site/_include/i...')
+#3 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/_include/img/slider-images/image04.jpg
+HTTP_REFERER=http://car.loc/index.php/site/index
+---
+2015/12/10 19:45:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'ระบบไม่สามารถดำเนินการ "_include" ตามคำสั่งได้' in /home/vagrant/Code/framework/web/CController.php:483
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CController.php(270): CController->missingAction('_include')
+#1 /home/vagrant/Code/framework/web/CWebApplication.php(282): CController->run('_include')
+#2 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('site/_include/i...')
+#3 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/_include/img/slider-images/image02.jpg
+HTTP_REFERER=http://car.loc/index.php/site/index
+---
+2015/12/10 19:45:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'ระบบไม่สามารถดำเนินการ "img" ตามคำสั่งได้' in /home/vagrant/Code/framework/web/CController.php:483
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CController.php(270): CController->missingAction('img')
+#1 /home/vagrant/Code/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('site/img/Logo.p...')
+#3 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/img/Logo.png
+HTTP_REFERER=http://car.loc/index.php/site/index
+---
+2015/12/10 19:45:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'ระบบไม่สามารถดำเนินการ "_include" ตามคำสั่งได้' in /home/vagrant/Code/framework/web/CController.php:483
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CController.php(270): CController->missingAction('_include')
+#1 /home/vagrant/Code/framework/web/CWebApplication.php(282): CController->run('_include')
+#2 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('site/_include/j...')
+#3 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/_include/js/modernizr.js
+HTTP_REFERER=http://car.loc/index.php/site/index
+---
+2015/12/10 19:45:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'ระบบไม่สามารถดำเนินการ "upload" ตามคำสั่งได้' in /home/vagrant/Code/framework/web/CController.php:483
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CController.php(270): CController->missingAction('upload')
+#1 /home/vagrant/Code/framework/web/CWebApplication.php(282): CController->run('upload')
+#2 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('site/upload/noi...')
+#3 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/upload/noimage.jpg
+HTTP_REFERER=http://car.loc/index.php/site/index
+---
+2015/12/10 19:45:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'ระบบไม่สามารถดำเนินการ "upload" ตามคำสั่งได้' in /home/vagrant/Code/framework/web/CController.php:483
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CController.php(270): CController->missingAction('upload')
+#1 /home/vagrant/Code/framework/web/CWebApplication.php(282): CController->run('upload')
+#2 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('site/upload/144...')
+#3 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/upload/1449411890.jpg
+HTTP_REFERER=http://car.loc/index.php/site/index
+---
+2015/12/10 19:45:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'ระบบไม่สามารถดำเนินการ "upload" ตามคำสั่งได้' in /home/vagrant/Code/framework/web/CController.php:483
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CController.php(270): CController->missingAction('upload')
+#1 /home/vagrant/Code/framework/web/CWebApplication.php(282): CController->run('upload')
+#2 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('site/upload/143...')
+#3 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/upload/1439459474.jpg
+HTTP_REFERER=http://car.loc/index.php/site/index
+---
+2015/12/10 19:45:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'ระบบไม่สามารถดำเนินการ "img" ตามคำสั่งได้' in /home/vagrant/Code/framework/web/CController.php:483
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CController.php(270): CController->missingAction('img')
+#1 /home/vagrant/Code/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('site/img/Logo.p...')
+#3 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/img/Logo.png
+HTTP_REFERER=http://car.loc/index.php/site/index
+---
+2015/12/10 19:45:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'ระบบไม่สามารถดำเนินการ "_include" ตามคำสั่งได้' in /home/vagrant/Code/framework/web/CController.php:483
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CController.php(270): CController->missingAction('_include')
+#1 /home/vagrant/Code/framework/web/CWebApplication.php(282): CController->run('_include')
+#2 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('site/_include/i...')
+#3 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/_include/img/slider-images/image01.jpg
+HTTP_REFERER=http://car.loc/index.php/site/index
+---
+2015/12/10 19:45:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'ระบบไม่สามารถดำเนินการ "_include" ตามคำสั่งได้' in /home/vagrant/Code/framework/web/CController.php:483
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CController.php(270): CController->missingAction('_include')
+#1 /home/vagrant/Code/framework/web/CWebApplication.php(282): CController->run('_include')
+#2 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('site/_include/i...')
+#3 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/_include/img/slider-images/image04.jpg
+HTTP_REFERER=http://car.loc/index.php/site/index
+---
+2015/12/10 19:45:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'ระบบไม่สามารถดำเนินการ "_include" ตามคำสั่งได้' in /home/vagrant/Code/framework/web/CController.php:483
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CController.php(270): CController->missingAction('_include')
+#1 /home/vagrant/Code/framework/web/CWebApplication.php(282): CController->run('_include')
+#2 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('site/_include/i...')
+#3 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/_include/img/slider-images/image02.jpg
+HTTP_REFERER=http://car.loc/index.php/site/index
+---
+2015/12/10 19:45:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "_include/js/modernizr.js".' in /home/vagrant/Code/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('_include/js/mod...')
+#1 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/_include/js/modernizr.js
+HTTP_REFERER=http://car.loc/index.php/
+---
+2015/12/10 19:45:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/Logo.png".' in /home/vagrant/Code/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('img/Logo.png')
+#1 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img/Logo.png
+HTTP_REFERER=http://car.loc/index.php/
+---
+2015/12/10 19:45:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/noimage.jpg".' in /home/vagrant/Code/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/noimage....')
+#1 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/upload/noimage.jpg
+HTTP_REFERER=http://car.loc/index.php/
+---
+2015/12/10 19:45:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/1449411890.jpg".' in /home/vagrant/Code/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/14494118...')
+#1 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/upload/1449411890.jpg
+HTTP_REFERER=http://car.loc/index.php/
+---
+2015/12/10 19:45:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/1439459474.jpg".' in /home/vagrant/Code/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/14394594...')
+#1 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/upload/1439459474.jpg
+HTTP_REFERER=http://car.loc/index.php/
+---
+2015/12/10 19:45:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "_include/img/slider-images/image04.jpg".' in /home/vagrant/Code/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('_include/img/sl...')
+#1 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/_include/img/slider-images/image04.jpg
+HTTP_REFERER=http://car.loc/index.php/
+---
+2015/12/10 19:45:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "_include/img/slider-images/image01.jpg".' in /home/vagrant/Code/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('_include/img/sl...')
+#1 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/_include/img/slider-images/image01.jpg
+HTTP_REFERER=http://car.loc/index.php/
+---
+2015/12/10 19:45:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "_include/img/slider-images/image02.jpg".' in /home/vagrant/Code/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('_include/img/sl...')
+#1 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/_include/img/slider-images/image02.jpg
+HTTP_REFERER=http://car.loc/index.php/
+---
+2015/12/10 19:45:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "_include/js/modernizr.js".' in /home/vagrant/Code/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('_include/js/mod...')
+#1 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/_include/js/modernizr.js
+HTTP_REFERER=http://car.loc/index.php/
+---
+2015/12/10 19:45:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/Logo.png".' in /home/vagrant/Code/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('img/Logo.png')
+#1 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img/Logo.png
+HTTP_REFERER=http://car.loc/index.php/
+---
+2015/12/10 19:45:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/1449411890.jpg".' in /home/vagrant/Code/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/14494118...')
+#1 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/upload/1449411890.jpg
+HTTP_REFERER=http://car.loc/index.php/
+---
+2015/12/10 19:45:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/noimage.jpg".' in /home/vagrant/Code/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/noimage....')
+#1 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/upload/noimage.jpg
+HTTP_REFERER=http://car.loc/index.php/
+---
+2015/12/10 19:45:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/1439459474.jpg".' in /home/vagrant/Code/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/14394594...')
+#1 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/upload/1439459474.jpg
+HTTP_REFERER=http://car.loc/index.php/
+---
+2015/12/10 19:45:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "_include/img/slider-images/image01.jpg".' in /home/vagrant/Code/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('_include/img/sl...')
+#1 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/_include/img/slider-images/image01.jpg
+HTTP_REFERER=http://car.loc/index.php/
+---
+2015/12/10 19:45:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "_include/img/slider-images/image04.jpg".' in /home/vagrant/Code/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('_include/img/sl...')
+#1 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/_include/img/slider-images/image04.jpg
+HTTP_REFERER=http://car.loc/index.php/
+---
+2015/12/10 19:45:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "_include/img/slider-images/image02.jpg".' in /home/vagrant/Code/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('_include/img/sl...')
+#1 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/_include/img/slider-images/image02.jpg
+HTTP_REFERER=http://car.loc/index.php/
+---
+2015/12/10 19:45:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/1449411974.jpg".' in /home/vagrant/Code/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/14494119...')
+#1 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/1449411974.jpg
+HTTP_REFERER=http://car.loc/index.php/admin/index
+---
+2015/12/10 19:45:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/1449411890.jpg".' in /home/vagrant/Code/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/14494118...')
+#1 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/1449411890.jpg
+HTTP_REFERER=http://car.loc/index.php
+---
+2015/12/10 19:45:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/1439459474.jpg".' in /home/vagrant/Code/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/14394594...')
+#1 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/1439459474.jpg
+HTTP_REFERER=http://car.loc/index.php
+---
+2015/12/10 19:45:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "_include/img/progress.gif".' in /home/vagrant/Code/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('_include/img/pr...')
+#1 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/_include/img/progress.gif
+HTTP_REFERER=http://car.loc/_include/css/supersized.css
+---
+2015/12/10 19:45:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/1449411890.jpg".' in /home/vagrant/Code/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/14494118...')
+#1 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/1449411890.jpg
+HTTP_REFERER=http://car.loc/index.php
+---
+2015/12/10 19:45:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/1439459474.jpg".' in /home/vagrant/Code/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/14394594...')
+#1 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/1439459474.jpg
+HTTP_REFERER=http://car.loc/index.php
+---
+2015/12/10 19:45:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/1449411974.jpg".' in /home/vagrant/Code/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/14494119...')
+#1 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/1449411974.jpg
+HTTP_REFERER=http://car.loc/index.php/report/paperDone
+---
+2015/12/10 20:32:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/1449411974.jpg".' in /home/vagrant/Code/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/14494119...')
+#1 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/1449411974.jpg
+HTTP_REFERER=http://car.loc/index.php/report/paper
+---
+2015/12/10 20:32:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/1449411974.jpg".' in /home/vagrant/Code/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/14494119...')
+#1 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/1449411974.jpg
+HTTP_REFERER=http://car.loc/index.php/repair
+---
+2015/12/10 20:32:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/1449411974.jpg".' in /home/vagrant/Code/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/14494119...')
+#1 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/1449411974.jpg
+HTTP_REFERER=http://car.loc/index.php/report/paperDone
+---
+2015/12/10 20:32:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "report/img/snru.jpg".' in /home/vagrant/Code/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('report/img/snru...')
+#1 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/report/img/snru.jpg
+HTTP_REFERER=http://car.loc/index.php/report/paperDone
+---
+2015/12/10 20:35:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/1449411974.jpg".' in /home/vagrant/Code/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/14494119...')
+#1 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/1449411974.jpg
+HTTP_REFERER=http://car.loc/index.php/report/paperDone/index
+---
