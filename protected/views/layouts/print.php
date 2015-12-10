@@ -16,6 +16,9 @@
         <!--Endless--> 
         <link href="/css/endless.min.css" rel="stylesheet" media="all">
         <style>
+            body{
+                font-family: "THSarabunNew";
+            }
             .left-padding{
                 padding-left: 20px;
             }
