@@ -20,7 +20,7 @@
                 <?php echo $model->getAttributeLabel('create_at'); ?>
             </label>
             <div class="col-lg-4">
-                <?php echo Tools::DateTimeToShow($model->create_at, '/', true); ?>
+                <?php echo Tools::DateTimeToShow($model->create_at, '/'); ?>
             </div>
         </div>
         <div class="form-group">
@@ -87,13 +87,13 @@
                 <?php echo $model->getAttributeLabel('departure_time'); ?>
             </label>
             <div class="col-lg-4">
-                <?php echo Tools::DateTimeToShow($model->departure_time, '/', true); ?>
+<!--                --><?php //echo Tools::DateTimeToShow($model->departure_time, '/', false); ?>
             </div>
             <label class="col-lg-2 text-muted">
                 <?php echo $model->getAttributeLabel('back_time'); ?>
             </label>
             <div class="col-lg-4">
-                <?php echo Tools::DateTimeToShow($model->back_time, '/', true); ?>
+                <?php echo Tools::DateTimeToShow($model->back_time, '/', false); ?>
             </div>
         </div>
         <div class="form-group">

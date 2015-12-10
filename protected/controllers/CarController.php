@@ -101,7 +101,7 @@ class CarController extends Controller {
     public function actionDelete($id) {
         $car = $this->loadModel($id);
 
-        if($car->repairs != null){
+        if($car->repairs != null || $car->paperApproval != null || $car->paperApprovalBus != null){
             throw new CHttpException(404, 'มีการใช้งานรถยนต์นี้ กรุณาตรวจสอบอีกครั้ง');
         }
 

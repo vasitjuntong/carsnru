@@ -41,6 +41,8 @@ class PaperDoneController extends Controller {
 
         $model = $this->loadModel($_POST['paper_id']);
 
+//        var_dump($model->attributes);die;
+
         $this->renderPartial('view', array(
             'model' => $model,
         ));
