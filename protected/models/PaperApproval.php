@@ -27,6 +27,14 @@ class PaperApproval extends PaperApprovalBase {
                 'condition' => 'type_paper_id = 1',
                 'order' => 'accept.accept_id desc',
             ),
+            'acceptBosscar' => array(self::HAS_ONE, 'Accept', 'paper_id',
+                'condition' => 'type_paper_id = 1 and status = 1',
+                'order' => 'acceptBosscar.accept_id desc',
+            ),
+            'acceptDone' => array(self::HAS_ONE, 'Accept', 'paper_id',
+                'condition' => 'type_paper_id = 1 and status = 4',
+                'order' => 'acceptDone.accept_id desc',
+            ),
         );
     }
 

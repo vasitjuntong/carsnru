@@ -49,7 +49,9 @@
     <abbr>ตั้งแต่วันที่</abbr><abbr class="left-padding"><?php echo Tools::DateTimeToShow($model->date_start, '/', false); ?></abbr>
 </div>
 <div style="width: 70%; float:left;">
-    <abbr class="padding-sub">เวลาออกเดินทาง</abbr><abbr class="left-padding"><?php echo date('H : i', strtotime($model->time_start)); ?></abbr><span class="left-padding-1">น.</span>
+    <abbr class="padding-sub">เวลาออกเดินทาง</abbr>
+    <abbr class="left-padding"><?php echo date('H : i', strtotime($model->time_start)); ?>
+    </abbr><span class="left-padding-1">น.</span>
 </div>
 <div style="width: 30%; float:left;">
     <abbr>กลับถึงวันที่</abbr><abbr class="left-padding"><?php echo Tools::DateTimeToShow($model->date_end, '/', false); ?></abbr>
