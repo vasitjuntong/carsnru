@@ -178,10 +178,10 @@
 </div>
 <div class="col-sm-offset-6 col-sm-6 text-center" style="margin-top: 30px;">
     <span>(ลงชื่อ)</span>
-    <abbr>
-        ........................................
-    </abbr>
-    <span>ผู้ขออนุญาติใช้รถ</span>
+    <strong class="left-padding">
+        <?php echo $model->member->name; ?>
+    </strong>
+    <span class="left-padding">ผู้ขออนุญาติใช้รถ</span>
 </div>
 <div class="padding-sub">
     <abbr>6. บันทึกหัวหน้าหน่วยยานพาหนะ</abbr>
@@ -217,11 +217,11 @@
 <div class="col-sm-offset-6 col-sm-6 text-center" style="margin-top: 20px;">
     <span>ลงชื่อ</span>
     <label class="left_right">
-        ........................................
+        <?php echo $model->acceptForPrint->personnel->name; ?>
     </label>
 </div>
 <div class="col-sm-offset-6 col-sm-6 text-center">
-    <span>(นายสงวน พรมหมพิภักดิ์)</span>
+    <span>(<?php echo $model->acceptForPrint->personnel->name; ?>)</span>
 </div>
 <div class="col-sm-offset-6 col-sm-6 text-center">
     <span>หัวหน้าหน่วยยานพาหนะ</span>
@@ -232,7 +232,7 @@
 <div class="col-sm-offset-6 col-sm-6 text-center" style="margin-top: 20px;">
     <span>ลงชื่อ</span>
     <label class="left_right">
-        ........................................
+        <?php echo $model->accept2->personnel->name; ?>
     </label>
 </div>
 <div class="col-sm-offset-6 col-sm-6 text-center">
@@ -247,7 +247,7 @@
 <div class="col-sm-offset-6 col-sm-6 text-center" style="margin-top: 20px;">
     <span>ลงชื่อ</span>
     <label class="left_right">
-        ........................................
+        <?php echo $model->accept3->personnel->name; ?>
     </label>
 </div>
 <div class="col-sm-offset-6 col-sm-6 text-center">

@@ -90,6 +90,10 @@ $this->menu = array(
                 'value' => number_format($model->service_room_multi * $model->days),
             ),
             array(
+                'name' => 'status',
+                'value' => Status::$paper[$model->status] . ' (' . $model->accept3->personnel->name . ')',
+            ),
+            array(
                 'name' => 'create_at',
                 'value' => Tools::DateTimeToShow($model->create_at, '/', true),
             )
