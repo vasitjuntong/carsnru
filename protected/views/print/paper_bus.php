@@ -46,13 +46,13 @@
     <abbr class="padding-sub">4. จำนวนวันที่ขอใช้บริการ</abbr><abbr class="left-padding"><?php echo $model->days; ?></abbr><span class="left-padding-1">วัน</span>
 </div>
 <div style="width: 30%; float:left;">
-    <abbr>ตั้งแต่วันที่</abbr><abbr class="left-padding"><?php echo Tools::DateTimeToShow($model->date_start, '/'); ?></abbr>
+    <abbr>ตั้งแต่วันที่</abbr><abbr class="left-padding"><?php echo Tools::DateTimeToShow($model->date_start, '/', false); ?></abbr>
 </div>
 <div style="width: 70%; float:left;">
     <abbr class="padding-sub">เวลาออกเดินทาง</abbr><abbr class="left-padding"><?php echo date('H : i', strtotime($model->time_start)); ?></abbr><span class="left-padding-1">น.</span>
 </div>
 <div style="width: 30%; float:left;">
-    <abbr>กลับถึงวันที่</abbr><abbr class="left-padding"><?php echo Tools::DateTimeToShow($model->date_end, '/'); ?></abbr>
+    <abbr>กลับถึงวันที่</abbr><abbr class="left-padding"><?php echo Tools::DateTimeToShow($model->date_end, '/', false); ?></abbr>
 </div>
 <br />
 <abbr class="padding-sub">5. ข้าพเจ้ายินดีรับผิดชอบใช้จ่าย เพื่อเป็นการสนับสนุนกิจการของมหาวิทยาลัย  ภายใน 7 วัน  หลังจากเดินทางกลับ  ตามรายละเอียด  ดังนี้</abbr>
