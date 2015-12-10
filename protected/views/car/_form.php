@@ -1,7 +1,6 @@
 <?php
 $form = $this->beginWidget('CActiveForm', array(
     'id' => 'car-form',
-    'enableAjaxValidation' => true,
     'htmlOptions' => array(
         'enctype' => 'multipart/form-data',
         'class' => 'form-horizontal form-border',

@@ -5597,3 +5597,1138 @@ Stack trace:
 REQUEST_URI=/upload/1449411974.jpg
 HTTP_REFERER=http://car.loc/index.php/report/paperDone
 ---
+2015/12/10 18:24:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/1449411974.jpg".' in /home/vagrant/Code/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/14494119...')
+#1 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/1449411974.jpg
+HTTP_REFERER=http://car.loc/index.php/report/paperDone
+---
+2015/12/10 18:24:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/1439459474.jpg".' in /home/vagrant/Code/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/14394594...')
+#1 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/1439459474.jpg
+HTTP_REFERER=http://car.loc/index.php
+---
+2015/12/10 18:24:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/1449411890.jpg".' in /home/vagrant/Code/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/14494118...')
+#1 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/1449411890.jpg
+HTTP_REFERER=http://car.loc/index.php
+---
+2015/12/10 18:25:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/1449411890.jpg".' in /home/vagrant/Code/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/14494118...')
+#1 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/1449411890.jpg
+HTTP_REFERER=http://car.loc/index.php
+---
+2015/12/10 18:25:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/1439459474.jpg".' in /home/vagrant/Code/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/14394594...')
+#1 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/1439459474.jpg
+HTTP_REFERER=http://car.loc/index.php
+---
+2015/12/10 18:25:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "_include/img/progress.gif".' in /home/vagrant/Code/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('_include/img/pr...')
+#1 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/_include/img/progress.gif
+HTTP_REFERER=http://car.loc/_include/css/supersized.css
+---
+2015/12/10 18:26:44 [error] [php] Trying to get property of non-object (/home/vagrant/Code/carsnru/protected/views/layouts/_top_nav.php:29)
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CController.php(869): AdminController->renderFile()
+#1 /home/vagrant/Code/carsnru/protected/views/layouts/main.php(95): AdminController->renderPartial()
+#2 /home/vagrant/Code/framework/web/CBaseController.php(126): require()
+#3 /home/vagrant/Code/framework/web/CBaseController.php(95): AdminController->renderInternal()
+#4 /home/vagrant/Code/framework/web/CController.php(784): AdminController->renderFile()
+#5 /home/vagrant/Code/carsnru/protected/controllers/AdminController.php(17): AdminController->render()
+#6 /home/vagrant/Code/framework/web/actions/CInlineAction.php(49): AdminController->actionIndex()
+#7 /home/vagrant/Code/framework/web/CController.php(308): CInlineAction->runWithParams()
+#8 /home/vagrant/Code/framework/web/filters/CFilterChain.php(133): AdminController->runAction()
+#9 /home/vagrant/Code/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#10 /home/vagrant/Code/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#11 /home/vagrant/Code/framework/web/filters/CInlineFilter.php(58): AdminController->filterAccessControl()
+#12 /home/vagrant/Code/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#13 /home/vagrant/Code/framework/web/CController.php(291): CFilterChain->run()
+#14 /home/vagrant/Code/framework/web/CController.php(265): AdminController->runActionWithFilters()
+#15 /home/vagrant/Code/framework/web/CWebApplication.php(282): AdminController->run()
+#16 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#17 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#18 /home/vagrant/Code/carsnru/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/admin
+in /home/vagrant/Code/carsnru/protected/views/layouts/_top_nav.php (29)
+in /home/vagrant/Code/carsnru/protected/views/layouts/main.php (95)
+in /home/vagrant/Code/carsnru/protected/controllers/AdminController.php (17)
+2015/12/10 18:28:06 [warning] [application] Failed to set unsafe attribute "file" of "FileOther".
+in /home/vagrant/Code/carsnru/protected/controllers/PaperApprovalController.php (65)
+in /home/vagrant/Code/carsnru/index.php (13)
+2015/12/10 18:28:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/1439459474.jpg".' in /home/vagrant/Code/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/14394594...')
+#1 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/1439459474.jpg
+HTTP_REFERER=http://car.loc/index.php
+---
+2015/12/10 18:28:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/1449411890.jpg".' in /home/vagrant/Code/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/14494118...')
+#1 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/1449411890.jpg
+HTTP_REFERER=http://car.loc/index.php
+---
+2015/12/10 18:28:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "_include/img/progress.gif".' in /home/vagrant/Code/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('_include/img/pr...')
+#1 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/_include/img/progress.gif
+HTTP_REFERER=http://car.loc/index.php
+---
+2015/12/10 18:28:44 [error] [php] Trying to get property of non-object (/home/vagrant/Code/carsnru/protected/views/layouts/topNav/_boss_car.php:73)
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CController.php(869): AdminController->renderFile()
+#1 /home/vagrant/Code/carsnru/protected/views/layouts/_top_nav.php(17): AdminController->renderPartial()
+#2 /home/vagrant/Code/framework/web/CBaseController.php(126): require()
+#3 /home/vagrant/Code/framework/web/CBaseController.php(95): AdminController->renderInternal()
+#4 /home/vagrant/Code/framework/web/CController.php(869): AdminController->renderFile()
+#5 /home/vagrant/Code/carsnru/protected/views/layouts/main.php(95): AdminController->renderPartial()
+#6 /home/vagrant/Code/framework/web/CBaseController.php(126): require()
+#7 /home/vagrant/Code/framework/web/CBaseController.php(95): AdminController->renderInternal()
+#8 /home/vagrant/Code/framework/web/CController.php(784): AdminController->renderFile()
+#9 /home/vagrant/Code/carsnru/protected/controllers/AdminController.php(17): AdminController->render()
+#10 /home/vagrant/Code/framework/web/actions/CInlineAction.php(49): AdminController->actionIndex()
+#11 /home/vagrant/Code/framework/web/CController.php(308): CInlineAction->runWithParams()
+#12 /home/vagrant/Code/framework/web/filters/CFilterChain.php(133): AdminController->runAction()
+#13 /home/vagrant/Code/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#14 /home/vagrant/Code/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#15 /home/vagrant/Code/framework/web/filters/CInlineFilter.php(58): AdminController->filterAccessControl()
+#16 /home/vagrant/Code/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#17 /home/vagrant/Code/framework/web/CController.php(291): CFilterChain->run()
+#18 /home/vagrant/Code/framework/web/CController.php(265): AdminController->runActionWithFilters()
+#19 /home/vagrant/Code/framework/web/CWebApplication.php(282): AdminController->run()
+#20 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#21 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#22 /home/vagrant/Code/carsnru/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/admin/index
+in /home/vagrant/Code/carsnru/protected/views/layouts/topNav/_boss_car.php (73)
+in /home/vagrant/Code/carsnru/protected/views/layouts/_top_nav.php (17)
+in /home/vagrant/Code/carsnru/protected/views/layouts/main.php (95)
+2015/12/10 18:31:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/1449411890.jpg".' in /home/vagrant/Code/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/14494118...')
+#1 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/1449411890.jpg
+HTTP_REFERER=http://car.loc/index.php/admin/index
+---
+2015/12/10 18:32:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/1439459474.jpg".' in /home/vagrant/Code/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/14394594...')
+#1 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/1439459474.jpg
+HTTP_REFERER=http://car.loc/
+---
+2015/12/10 18:32:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/1449411890.jpg".' in /home/vagrant/Code/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/14494118...')
+#1 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/1449411890.jpg
+HTTP_REFERER=http://car.loc/
+---
+2015/12/10 18:32:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "_include/img/progress.gif".' in /home/vagrant/Code/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('_include/img/pr...')
+#1 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/_include/img/progress.gif
+HTTP_REFERER=http://car.loc/
+---
+2015/12/10 18:32:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/1449411974.jpg".' in /home/vagrant/Code/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/14494119...')
+#1 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/1449411974.jpg
+HTTP_REFERER=http://car.loc/index.php/admin/index
+---
+2015/12/10 18:32:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/1449411974.jpg".' in /home/vagrant/Code/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/14494119...')
+#1 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/1449411974.jpg
+HTTP_REFERER=http://car.loc/index.php/car
+---
+2015/12/10 18:32:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/1449411974.jpg".' in /home/vagrant/Code/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/14494119...')
+#1 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/1449411974.jpg
+HTTP_REFERER=http://car.loc/index.php/car/create
+---
+2015/12/10 18:33:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/1449411974.jpg".' in /home/vagrant/Code/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/14494119...')
+#1 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/1449411974.jpg
+HTTP_REFERER=http://car.loc/index.php/car/create
+---
+2015/12/10 18:33:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/1449411974.jpg".' in /home/vagrant/Code/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/14494119...')
+#1 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/1449411974.jpg
+HTTP_REFERER=http://car.loc/index.php/car/create
+---
+2015/12/10 18:33:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/1449411974.jpg".' in /home/vagrant/Code/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/14494119...')
+#1 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/1449411974.jpg
+HTTP_REFERER=http://car.loc/index.php/car/create
+---
+2015/12/10 18:33:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/1449411974.jpg".' in /home/vagrant/Code/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/14494119...')
+#1 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/1449411974.jpg
+HTTP_REFERER=http://car.loc/index.php/car/create
+---
+2015/12/10 18:33:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/1449411974.jpg".' in /home/vagrant/Code/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/14494119...')
+#1 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/1449411974.jpg
+HTTP_REFERER=http://car.loc/index.php/car/create
+---
+2015/12/10 18:33:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/1449411974.jpg".' in /home/vagrant/Code/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/14494119...')
+#1 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/1449411974.jpg
+HTTP_REFERER=http://car.loc/index.php/car/create
+---
+2015/12/10 18:34:42 [warning] [application] Failed to set unsafe attribute "file" of "File".
+in /home/vagrant/Code/carsnru/protected/controllers/CarController.php (43)
+in /home/vagrant/Code/carsnru/index.php (13)
+2015/12/10 18:34:42 [error] [php] Undefined offset: 2 (/home/vagrant/Code/carsnru/protected/helpers/Tools.php:34)
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /home/vagrant/Code/framework/web/filters/CFilterChain.php(133): CarController->runAction()
+#2 /home/vagrant/Code/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /home/vagrant/Code/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#4 /home/vagrant/Code/framework/web/filters/CInlineFilter.php(58): CarController->filterAccessControl()
+#5 /home/vagrant/Code/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#6 /home/vagrant/Code/framework/web/CController.php(291): CFilterChain->run()
+#7 /home/vagrant/Code/framework/web/CController.php(265): CarController->runActionWithFilters()
+#8 /home/vagrant/Code/framework/web/CWebApplication.php(282): CarController->run()
+#9 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#10 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#11 /home/vagrant/Code/carsnru/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/car/create
+in /home/vagrant/Code/carsnru/protected/helpers/Tools.php (34)
+in /home/vagrant/Code/carsnru/protected/controllers/CarController.php (47)
+in /home/vagrant/Code/carsnru/index.php (13)
+2015/12/10 18:35:35 [warning] [application] Failed to set unsafe attribute "file" of "File".
+in /home/vagrant/Code/carsnru/protected/controllers/CarController.php (43)
+in /home/vagrant/Code/carsnru/index.php (13)
+2015/12/10 18:35:35 [error] [php] Undefined offset: 2 (/home/vagrant/Code/carsnru/protected/helpers/Tools.php:34)
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /home/vagrant/Code/framework/web/filters/CFilterChain.php(133): CarController->runAction()
+#2 /home/vagrant/Code/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /home/vagrant/Code/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#4 /home/vagrant/Code/framework/web/filters/CInlineFilter.php(58): CarController->filterAccessControl()
+#5 /home/vagrant/Code/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#6 /home/vagrant/Code/framework/web/CController.php(291): CFilterChain->run()
+#7 /home/vagrant/Code/framework/web/CController.php(265): CarController->runActionWithFilters()
+#8 /home/vagrant/Code/framework/web/CWebApplication.php(282): CarController->run()
+#9 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#10 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#11 /home/vagrant/Code/carsnru/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/car/create
+in /home/vagrant/Code/carsnru/protected/helpers/Tools.php (34)
+in /home/vagrant/Code/carsnru/protected/controllers/CarController.php (52)
+in /home/vagrant/Code/carsnru/index.php (13)
+2015/12/10 18:35:46 [warning] [application] Failed to set unsafe attribute "file" of "File".
+in /home/vagrant/Code/carsnru/protected/controllers/CarController.php (43)
+in /home/vagrant/Code/carsnru/index.php (13)
+2015/12/10 18:35:46 [error] [php] Undefined offset: 2 (/home/vagrant/Code/carsnru/protected/helpers/Tools.php:34)
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /home/vagrant/Code/framework/web/filters/CFilterChain.php(133): CarController->runAction()
+#2 /home/vagrant/Code/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /home/vagrant/Code/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#4 /home/vagrant/Code/framework/web/filters/CInlineFilter.php(58): CarController->filterAccessControl()
+#5 /home/vagrant/Code/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#6 /home/vagrant/Code/framework/web/CController.php(291): CFilterChain->run()
+#7 /home/vagrant/Code/framework/web/CController.php(265): CarController->runActionWithFilters()
+#8 /home/vagrant/Code/framework/web/CWebApplication.php(282): CarController->run()
+#9 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#10 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#11 /home/vagrant/Code/carsnru/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/car/create
+in /home/vagrant/Code/carsnru/protected/helpers/Tools.php (34)
+in /home/vagrant/Code/carsnru/protected/controllers/CarController.php (52)
+in /home/vagrant/Code/carsnru/index.php (13)
+2015/12/10 18:35:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/1449411974.jpg".' in /home/vagrant/Code/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/14494119...')
+#1 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/1449411974.jpg
+HTTP_REFERER=http://car.loc/index.php/car/create
+---
+2015/12/10 18:35:54 [warning] [application] Failed to set unsafe attribute "file" of "File".
+in /home/vagrant/Code/carsnru/protected/controllers/CarController.php (43)
+in /home/vagrant/Code/carsnru/index.php (13)
+2015/12/10 18:35:54 [error] [php] Undefined offset: 2 (/home/vagrant/Code/carsnru/protected/helpers/Tools.php:34)
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /home/vagrant/Code/framework/web/filters/CFilterChain.php(133): CarController->runAction()
+#2 /home/vagrant/Code/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /home/vagrant/Code/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#4 /home/vagrant/Code/framework/web/filters/CInlineFilter.php(58): CarController->filterAccessControl()
+#5 /home/vagrant/Code/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#6 /home/vagrant/Code/framework/web/CController.php(291): CFilterChain->run()
+#7 /home/vagrant/Code/framework/web/CController.php(265): CarController->runActionWithFilters()
+#8 /home/vagrant/Code/framework/web/CWebApplication.php(282): CarController->run()
+#9 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#10 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#11 /home/vagrant/Code/carsnru/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/car/create
+in /home/vagrant/Code/carsnru/protected/helpers/Tools.php (34)
+in /home/vagrant/Code/carsnru/protected/controllers/CarController.php (52)
+in /home/vagrant/Code/carsnru/index.php (13)
+2015/12/10 18:36:56 [warning] [application] Failed to set unsafe attribute "file" of "File".
+in /home/vagrant/Code/carsnru/protected/controllers/CarController.php (43)
+in /home/vagrant/Code/carsnru/index.php (13)
+2015/12/10 18:36:56 [error] [php] Undefined offset: 2 (/home/vagrant/Code/carsnru/protected/helpers/Tools.php:34)
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /home/vagrant/Code/framework/web/filters/CFilterChain.php(133): CarController->runAction()
+#2 /home/vagrant/Code/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /home/vagrant/Code/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#4 /home/vagrant/Code/framework/web/filters/CInlineFilter.php(58): CarController->filterAccessControl()
+#5 /home/vagrant/Code/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#6 /home/vagrant/Code/framework/web/CController.php(291): CFilterChain->run()
+#7 /home/vagrant/Code/framework/web/CController.php(265): CarController->runActionWithFilters()
+#8 /home/vagrant/Code/framework/web/CWebApplication.php(282): CarController->run()
+#9 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#10 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#11 /home/vagrant/Code/carsnru/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/car/create
+in /home/vagrant/Code/carsnru/protected/helpers/Tools.php (34)
+in /home/vagrant/Code/carsnru/protected/controllers/CarController.php (53)
+in /home/vagrant/Code/carsnru/index.php (13)
+2015/12/10 18:36:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/1449411974.jpg".' in /home/vagrant/Code/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/14494119...')
+#1 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/1449411974.jpg
+HTTP_REFERER=http://car.loc/index.php/car/create
+---
+2015/12/10 18:37:03 [warning] [application] Failed to set unsafe attribute "file" of "File".
+in /home/vagrant/Code/carsnru/protected/controllers/CarController.php (43)
+in /home/vagrant/Code/carsnru/index.php (13)
+2015/12/10 18:37:03 [error] [php] Undefined offset: 2 (/home/vagrant/Code/carsnru/protected/helpers/Tools.php:34)
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /home/vagrant/Code/framework/web/filters/CFilterChain.php(133): CarController->runAction()
+#2 /home/vagrant/Code/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /home/vagrant/Code/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#4 /home/vagrant/Code/framework/web/filters/CInlineFilter.php(58): CarController->filterAccessControl()
+#5 /home/vagrant/Code/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#6 /home/vagrant/Code/framework/web/CController.php(291): CFilterChain->run()
+#7 /home/vagrant/Code/framework/web/CController.php(265): CarController->runActionWithFilters()
+#8 /home/vagrant/Code/framework/web/CWebApplication.php(282): CarController->run()
+#9 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#10 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#11 /home/vagrant/Code/carsnru/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/car/create
+in /home/vagrant/Code/carsnru/protected/helpers/Tools.php (34)
+in /home/vagrant/Code/carsnru/protected/controllers/CarController.php (53)
+in /home/vagrant/Code/carsnru/index.php (13)
+2015/12/10 18:37:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/1449411974.jpg".' in /home/vagrant/Code/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/14494119...')
+#1 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/1449411974.jpg
+HTTP_REFERER=http://car.loc/index.php/car/create
+---
+2015/12/10 18:37:29 [warning] [application] Failed to set unsafe attribute "file" of "File".
+in /home/vagrant/Code/carsnru/protected/controllers/CarController.php (43)
+in /home/vagrant/Code/carsnru/index.php (13)
+2015/12/10 18:37:29 [error] [php] Cannot modify header information - headers already sent by (output started at /home/vagrant/Code/framework/web/CController.php:793) (/home/vagrant/Code/framework/web/CHttpRequest.php:789)
+Stack trace:
+#0 /home/vagrant/Code/carsnru/protected/controllers/CarController.php(64): CarController->redirect()
+#1 /home/vagrant/Code/framework/web/actions/CInlineAction.php(49): CarController->actionCreate()
+#2 /home/vagrant/Code/framework/web/CController.php(308): CInlineAction->runWithParams()
+#3 /home/vagrant/Code/framework/web/filters/CFilterChain.php(133): CarController->runAction()
+#4 /home/vagrant/Code/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#5 /home/vagrant/Code/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#6 /home/vagrant/Code/framework/web/filters/CInlineFilter.php(58): CarController->filterAccessControl()
+#7 /home/vagrant/Code/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#8 /home/vagrant/Code/framework/web/CController.php(291): CFilterChain->run()
+#9 /home/vagrant/Code/framework/web/CController.php(265): CarController->runActionWithFilters()
+#10 /home/vagrant/Code/framework/web/CWebApplication.php(282): CarController->run()
+#11 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#12 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#13 /home/vagrant/Code/carsnru/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/car/create
+in /home/vagrant/Code/carsnru/protected/controllers/CarController.php (64)
+in /home/vagrant/Code/carsnru/index.php (13)
+2015/12/10 18:37:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/1449411974.jpg".' in /home/vagrant/Code/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/14494119...')
+#1 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/1449411974.jpg
+HTTP_REFERER=http://car.loc/index.php/car/create
+---
+2015/12/10 18:37:30 [warning] [application] Failed to set unsafe attribute "file" of "File".
+in /home/vagrant/Code/carsnru/protected/controllers/CarController.php (43)
+in /home/vagrant/Code/carsnru/index.php (13)
+2015/12/10 18:37:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/1449411974.jpg".' in /home/vagrant/Code/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/14494119...')
+#1 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/1449411974.jpg
+HTTP_REFERER=http://car.loc/index.php/car/create
+---
+2015/12/10 18:37:36 [warning] [application] Failed to set unsafe attribute "file" of "File".
+in /home/vagrant/Code/carsnru/protected/controllers/CarController.php (43)
+in /home/vagrant/Code/carsnru/index.php (13)
+2015/12/10 18:37:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/1449411974.jpg".' in /home/vagrant/Code/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/14494119...')
+#1 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/1449411974.jpg
+HTTP_REFERER=http://car.loc/index.php/car/create
+---
+2015/12/10 18:37:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/1449411974.jpg".' in /home/vagrant/Code/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/14494119...')
+#1 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/1449411974.jpg
+HTTP_REFERER=http://car.loc/index.php/car/create
+---
+2015/12/10 18:38:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/1449411974.jpg".' in /home/vagrant/Code/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/14494119...')
+#1 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/1449411974.jpg
+HTTP_REFERER=http://car.loc/index.php/car/create
+---
+2015/12/10 18:38:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/1449411890.jpg".' in /home/vagrant/Code/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/14494118...')
+#1 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/1449411890.jpg
+HTTP_REFERER=http://car.loc/index.php
+---
+2015/12/10 18:38:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/1439459474.jpg".' in /home/vagrant/Code/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/14394594...')
+#1 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/1439459474.jpg
+HTTP_REFERER=http://car.loc/index.php
+---
+2015/12/10 18:38:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "_include/img/progress.gif".' in /home/vagrant/Code/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('_include/img/pr...')
+#1 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/_include/img/progress.gif
+HTTP_REFERER=http://car.loc/index.php
+---
+2015/12/10 18:38:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/1449411974.jpg".' in /home/vagrant/Code/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/14494119...')
+#1 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/1449411974.jpg
+HTTP_REFERER=http://car.loc/index.php/admin/index
+---
+2015/12/10 18:38:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/1449411974.jpg".' in /home/vagrant/Code/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/14494119...')
+#1 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/1449411974.jpg
+HTTP_REFERER=http://car.loc/index.php/car
+---
+2015/12/10 18:38:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/1449411974.jpg".' in /home/vagrant/Code/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/14494119...')
+#1 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/1449411974.jpg
+HTTP_REFERER=http://car.loc/index.php/car/5
+---
+2015/12/10 18:38:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'ระบบไม่สามารถดำเนินการ "upload" ตามคำสั่งได้' in /home/vagrant/Code/framework/web/CController.php:483
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CController.php(270): CController->missingAction('upload')
+#1 /home/vagrant/Code/framework/web/CWebApplication.php(282): CController->run('upload')
+#2 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('car/upload/noim...')
+#3 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/car/upload/noimage.jpg
+HTTP_REFERER=http://car.loc/index.php/car/5
+---
+2015/12/10 18:38:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/1449411974.jpg".' in /home/vagrant/Code/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/14494119...')
+#1 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/1449411974.jpg
+HTTP_REFERER=http://car.loc/index.php/car/create
+---
+2015/12/10 18:38:56 [warning] [application] Failed to set unsafe attribute "file" of "File".
+in /home/vagrant/Code/carsnru/protected/controllers/CarController.php (43)
+in /home/vagrant/Code/carsnru/index.php (13)
+2015/12/10 18:38:56 [error] [php] Undefined offset: 2 (/home/vagrant/Code/carsnru/protected/helpers/Tools.php:34)
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /home/vagrant/Code/framework/web/filters/CFilterChain.php(133): CarController->runAction()
+#2 /home/vagrant/Code/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /home/vagrant/Code/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#4 /home/vagrant/Code/framework/web/filters/CInlineFilter.php(58): CarController->filterAccessControl()
+#5 /home/vagrant/Code/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#6 /home/vagrant/Code/framework/web/CController.php(291): CFilterChain->run()
+#7 /home/vagrant/Code/framework/web/CController.php(265): CarController->runActionWithFilters()
+#8 /home/vagrant/Code/framework/web/CWebApplication.php(282): CarController->run()
+#9 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#10 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#11 /home/vagrant/Code/carsnru/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/car/create
+in /home/vagrant/Code/carsnru/protected/helpers/Tools.php (34)
+in /home/vagrant/Code/carsnru/protected/controllers/CarController.php (54)
+in /home/vagrant/Code/carsnru/index.php (13)
+2015/12/10 18:38:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/1449411974.jpg".' in /home/vagrant/Code/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/14494119...')
+#1 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/1449411974.jpg
+HTTP_REFERER=http://car.loc/index.php/car/create
+---
+2015/12/10 18:39:21 [warning] [application] Failed to set unsafe attribute "file" of "File".
+in /home/vagrant/Code/carsnru/protected/controllers/CarController.php (43)
+in /home/vagrant/Code/carsnru/index.php (13)
+2015/12/10 18:39:21 [error] [php] Cannot modify header information - headers already sent by (output started at /home/vagrant/Code/framework/web/CController.php:793) (/home/vagrant/Code/framework/web/CHttpRequest.php:789)
+Stack trace:
+#0 /home/vagrant/Code/carsnru/protected/controllers/CarController.php(65): CarController->redirect()
+#1 /home/vagrant/Code/framework/web/actions/CInlineAction.php(49): CarController->actionCreate()
+#2 /home/vagrant/Code/framework/web/CController.php(308): CInlineAction->runWithParams()
+#3 /home/vagrant/Code/framework/web/filters/CFilterChain.php(133): CarController->runAction()
+#4 /home/vagrant/Code/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#5 /home/vagrant/Code/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#6 /home/vagrant/Code/framework/web/filters/CInlineFilter.php(58): CarController->filterAccessControl()
+#7 /home/vagrant/Code/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#8 /home/vagrant/Code/framework/web/CController.php(291): CFilterChain->run()
+#9 /home/vagrant/Code/framework/web/CController.php(265): CarController->runActionWithFilters()
+#10 /home/vagrant/Code/framework/web/CWebApplication.php(282): CarController->run()
+#11 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#12 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#13 /home/vagrant/Code/carsnru/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/car/create
+in /home/vagrant/Code/carsnru/protected/controllers/CarController.php (65)
+in /home/vagrant/Code/carsnru/index.php (13)
+2015/12/10 18:39:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/1449411974.jpg".' in /home/vagrant/Code/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/14494119...')
+#1 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/1449411974.jpg
+HTTP_REFERER=http://car.loc/index.php/car/create
+---
+2015/12/10 18:39:24 [warning] [application] Failed to set unsafe attribute "file" of "File".
+in /home/vagrant/Code/carsnru/protected/controllers/CarController.php (43)
+in /home/vagrant/Code/carsnru/index.php (13)
+2015/12/10 18:39:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/1449411974.jpg".' in /home/vagrant/Code/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/14494119...')
+#1 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/1449411974.jpg
+HTTP_REFERER=http://car.loc/index.php/car/create
+---
+2015/12/10 18:39:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/1449411974.jpg".' in /home/vagrant/Code/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/14494119...')
+#1 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/1449411974.jpg
+HTTP_REFERER=http://car.loc/index.php/car/create
+---
+2015/12/10 18:40:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/1449411974.jpg".' in /home/vagrant/Code/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/14494119...')
+#1 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/1449411974.jpg
+HTTP_REFERER=http://car.loc/index.php/car/create
+---
+2015/12/10 18:40:14 [warning] [application] Failed to set unsafe attribute "file" of "File".
+in /home/vagrant/Code/carsnru/protected/controllers/CarController.php (43)
+in /home/vagrant/Code/carsnru/index.php (13)
+2015/12/10 18:40:14 [error] [php] Undefined offset: 2 (/home/vagrant/Code/carsnru/protected/helpers/Tools.php:34)
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /home/vagrant/Code/framework/web/filters/CFilterChain.php(133): CarController->runAction()
+#2 /home/vagrant/Code/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /home/vagrant/Code/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#4 /home/vagrant/Code/framework/web/filters/CInlineFilter.php(58): CarController->filterAccessControl()
+#5 /home/vagrant/Code/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#6 /home/vagrant/Code/framework/web/CController.php(291): CFilterChain->run()
+#7 /home/vagrant/Code/framework/web/CController.php(265): CarController->runActionWithFilters()
+#8 /home/vagrant/Code/framework/web/CWebApplication.php(282): CarController->run()
+#9 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#10 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#11 /home/vagrant/Code/carsnru/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/car/create
+in /home/vagrant/Code/carsnru/protected/helpers/Tools.php (34)
+in /home/vagrant/Code/carsnru/protected/controllers/CarController.php (54)
+in /home/vagrant/Code/carsnru/index.php (13)
+2015/12/10 18:40:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/1449411974.jpg".' in /home/vagrant/Code/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/14494119...')
+#1 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/1449411974.jpg
+HTTP_REFERER=http://car.loc/index.php/car/create
+---
+2015/12/10 18:41:13 [warning] [application] Failed to set unsafe attribute "file" of "File".
+in /home/vagrant/Code/carsnru/protected/controllers/CarController.php (43)
+in /home/vagrant/Code/carsnru/index.php (13)
+2015/12/10 18:41:13 [error] [php] Undefined offset: 2 (/home/vagrant/Code/carsnru/protected/helpers/Tools.php:34)
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /home/vagrant/Code/framework/web/filters/CFilterChain.php(133): CarController->runAction()
+#2 /home/vagrant/Code/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /home/vagrant/Code/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#4 /home/vagrant/Code/framework/web/filters/CInlineFilter.php(58): CarController->filterAccessControl()
+#5 /home/vagrant/Code/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#6 /home/vagrant/Code/framework/web/CController.php(291): CFilterChain->run()
+#7 /home/vagrant/Code/framework/web/CController.php(265): CarController->runActionWithFilters()
+#8 /home/vagrant/Code/framework/web/CWebApplication.php(282): CarController->run()
+#9 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#10 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#11 /home/vagrant/Code/carsnru/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/car/create
+in /home/vagrant/Code/carsnru/protected/helpers/Tools.php (34)
+in /home/vagrant/Code/carsnru/protected/controllers/CarController.php (54)
+in /home/vagrant/Code/carsnru/index.php (13)
+2015/12/10 18:41:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/1449411974.jpg".' in /home/vagrant/Code/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/14494119...')
+#1 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/1449411974.jpg
+HTTP_REFERER=http://car.loc/index.php/car/create
+---
+2015/12/10 18:41:18 [warning] [application] Failed to set unsafe attribute "file" of "File".
+in /home/vagrant/Code/carsnru/protected/controllers/CarController.php (43)
+in /home/vagrant/Code/carsnru/index.php (13)
+2015/12/10 18:41:18 [error] [php] Undefined offset: 2 (/home/vagrant/Code/carsnru/protected/helpers/Tools.php:34)
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /home/vagrant/Code/framework/web/filters/CFilterChain.php(133): CarController->runAction()
+#2 /home/vagrant/Code/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /home/vagrant/Code/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#4 /home/vagrant/Code/framework/web/filters/CInlineFilter.php(58): CarController->filterAccessControl()
+#5 /home/vagrant/Code/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#6 /home/vagrant/Code/framework/web/CController.php(291): CFilterChain->run()
+#7 /home/vagrant/Code/framework/web/CController.php(265): CarController->runActionWithFilters()
+#8 /home/vagrant/Code/framework/web/CWebApplication.php(282): CarController->run()
+#9 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#10 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#11 /home/vagrant/Code/carsnru/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/car/create
+in /home/vagrant/Code/carsnru/protected/helpers/Tools.php (34)
+in /home/vagrant/Code/carsnru/protected/controllers/CarController.php (54)
+in /home/vagrant/Code/carsnru/index.php (13)
+2015/12/10 18:41:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/1449411974.jpg".' in /home/vagrant/Code/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/14494119...')
+#1 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/1449411974.jpg
+HTTP_REFERER=http://car.loc/index.php/car/create
+---
+2015/12/10 18:41:36 [warning] [application] Failed to set unsafe attribute "file" of "File".
+in /home/vagrant/Code/carsnru/protected/controllers/CarController.php (43)
+in /home/vagrant/Code/carsnru/index.php (13)
+2015/12/10 18:41:36 [error] [php] Cannot modify header information - headers already sent by (output started at /home/vagrant/Code/framework/web/CController.php:793) (/home/vagrant/Code/framework/web/CHttpRequest.php:789)
+Stack trace:
+#0 /home/vagrant/Code/carsnru/protected/controllers/CarController.php(66): CarController->redirect()
+#1 /home/vagrant/Code/framework/web/actions/CInlineAction.php(49): CarController->actionCreate()
+#2 /home/vagrant/Code/framework/web/CController.php(308): CInlineAction->runWithParams()
+#3 /home/vagrant/Code/framework/web/filters/CFilterChain.php(133): CarController->runAction()
+#4 /home/vagrant/Code/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#5 /home/vagrant/Code/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#6 /home/vagrant/Code/framework/web/filters/CInlineFilter.php(58): CarController->filterAccessControl()
+#7 /home/vagrant/Code/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#8 /home/vagrant/Code/framework/web/CController.php(291): CFilterChain->run()
+#9 /home/vagrant/Code/framework/web/CController.php(265): CarController->runActionWithFilters()
+#10 /home/vagrant/Code/framework/web/CWebApplication.php(282): CarController->run()
+#11 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#12 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#13 /home/vagrant/Code/carsnru/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/car/create
+in /home/vagrant/Code/carsnru/protected/controllers/CarController.php (66)
+in /home/vagrant/Code/carsnru/index.php (13)
+2015/12/10 18:41:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/1449411974.jpg".' in /home/vagrant/Code/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/14494119...')
+#1 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/1449411974.jpg
+HTTP_REFERER=http://car.loc/index.php/car/create
+---
+2015/12/10 18:41:40 [warning] [application] Failed to set unsafe attribute "file" of "File".
+in /home/vagrant/Code/carsnru/protected/controllers/CarController.php (43)
+in /home/vagrant/Code/carsnru/index.php (13)
+2015/12/10 18:41:40 [error] [php] Cannot modify header information - headers already sent by (output started at /home/vagrant/Code/framework/web/CController.php:793) (/home/vagrant/Code/framework/web/CHttpRequest.php:789)
+Stack trace:
+#0 /home/vagrant/Code/carsnru/protected/controllers/CarController.php(66): CarController->redirect()
+#1 /home/vagrant/Code/framework/web/actions/CInlineAction.php(49): CarController->actionCreate()
+#2 /home/vagrant/Code/framework/web/CController.php(308): CInlineAction->runWithParams()
+#3 /home/vagrant/Code/framework/web/filters/CFilterChain.php(133): CarController->runAction()
+#4 /home/vagrant/Code/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#5 /home/vagrant/Code/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#6 /home/vagrant/Code/framework/web/filters/CInlineFilter.php(58): CarController->filterAccessControl()
+#7 /home/vagrant/Code/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#8 /home/vagrant/Code/framework/web/CController.php(291): CFilterChain->run()
+#9 /home/vagrant/Code/framework/web/CController.php(265): CarController->runActionWithFilters()
+#10 /home/vagrant/Code/framework/web/CWebApplication.php(282): CarController->run()
+#11 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#12 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#13 /home/vagrant/Code/carsnru/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/car/create
+in /home/vagrant/Code/carsnru/protected/controllers/CarController.php (66)
+in /home/vagrant/Code/carsnru/index.php (13)
+2015/12/10 18:41:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/1449411974.jpg".' in /home/vagrant/Code/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/14494119...')
+#1 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/1449411974.jpg
+HTTP_REFERER=http://car.loc/index.php/car/create
+---
+2015/12/10 18:42:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/1449411974.jpg".' in /home/vagrant/Code/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/14494119...')
+#1 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/1449411974.jpg
+HTTP_REFERER=http://car.loc/index.php/car/admin
+---
+2015/12/10 18:42:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/1449411974.jpg".' in /home/vagrant/Code/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/14494119...')
+#1 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/1449411974.jpg
+HTTP_REFERER=http://car.loc/index.php/car/create
+---
+2015/12/10 18:42:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/1449411974.jpg".' in /home/vagrant/Code/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/14494119...')
+#1 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/1449411974.jpg
+HTTP_REFERER=http://car.loc/index.php/car/admin
+---
+2015/12/10 18:42:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'ระบบไม่สามารถดำเนินการ "upload" ตามคำสั่งได้' in /home/vagrant/Code/framework/web/CController.php:483
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CController.php(270): CController->missingAction('upload')
+#1 /home/vagrant/Code/framework/web/CWebApplication.php(282): CController->run('upload')
+#2 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('car/upload/noim...')
+#3 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/car/upload/noimage.jpg
+HTTP_REFERER=http://car.loc/index.php/car/5
+---
+2015/12/10 18:42:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/1449411974.jpg".' in /home/vagrant/Code/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/14494119...')
+#1 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/1449411974.jpg
+HTTP_REFERER=http://car.loc/index.php/car/5
+---
+2015/12/10 18:44:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/1449411974.jpg".' in /home/vagrant/Code/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/14494119...')
+#1 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/1449411974.jpg
+HTTP_REFERER=http://car.loc/index.php/car/5
+---
+2015/12/10 18:44:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/1449411974.jpg".' in /home/vagrant/Code/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/14494119...')
+#1 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/1449411974.jpg
+HTTP_REFERER=http://car.loc/index.php/car/create
+---
+2015/12/10 18:45:19 [warning] [application] Failed to set unsafe attribute "file" of "File".
+in /home/vagrant/Code/carsnru/protected/controllers/CarController.php (43)
+in /home/vagrant/Code/carsnru/index.php (13)
+2015/12/10 18:45:19 [error] [php] Cannot modify header information - headers already sent by (output started at /home/vagrant/Code/framework/web/CController.php:793) (/home/vagrant/Code/framework/web/CHttpRequest.php:789)
+Stack trace:
+#0 /home/vagrant/Code/carsnru/protected/controllers/CarController.php(66): CarController->redirect()
+#1 /home/vagrant/Code/framework/web/actions/CInlineAction.php(49): CarController->actionCreate()
+#2 /home/vagrant/Code/framework/web/CController.php(308): CInlineAction->runWithParams()
+#3 /home/vagrant/Code/framework/web/filters/CFilterChain.php(133): CarController->runAction()
+#4 /home/vagrant/Code/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#5 /home/vagrant/Code/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#6 /home/vagrant/Code/framework/web/filters/CInlineFilter.php(58): CarController->filterAccessControl()
+#7 /home/vagrant/Code/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#8 /home/vagrant/Code/framework/web/CController.php(291): CFilterChain->run()
+#9 /home/vagrant/Code/framework/web/CController.php(265): CarController->runActionWithFilters()
+#10 /home/vagrant/Code/framework/web/CWebApplication.php(282): CarController->run()
+#11 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#12 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#13 /home/vagrant/Code/carsnru/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/car/create
+in /home/vagrant/Code/carsnru/protected/controllers/CarController.php (66)
+in /home/vagrant/Code/carsnru/index.php (13)
+2015/12/10 18:45:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/1449411974.jpg".' in /home/vagrant/Code/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/14494119...')
+#1 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/1449411974.jpg
+HTTP_REFERER=http://car.loc/index.php/car/create
+---
+2015/12/10 18:46:34 [warning] [application] Failed to set unsafe attribute "file" of "File".
+in /home/vagrant/Code/carsnru/protected/controllers/CarController.php (43)
+in /home/vagrant/Code/carsnru/index.php (13)
+2015/12/10 18:46:34 [error] [php] Cannot modify header information - headers already sent by (output started at /home/vagrant/Code/framework/web/CController.php:793) (/home/vagrant/Code/framework/web/CHttpRequest.php:789)
+Stack trace:
+#0 /home/vagrant/Code/carsnru/protected/controllers/CarController.php(67): CarController->redirect()
+#1 /home/vagrant/Code/framework/web/actions/CInlineAction.php(49): CarController->actionCreate()
+#2 /home/vagrant/Code/framework/web/CController.php(308): CInlineAction->runWithParams()
+#3 /home/vagrant/Code/framework/web/filters/CFilterChain.php(133): CarController->runAction()
+#4 /home/vagrant/Code/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#5 /home/vagrant/Code/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#6 /home/vagrant/Code/framework/web/filters/CInlineFilter.php(58): CarController->filterAccessControl()
+#7 /home/vagrant/Code/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#8 /home/vagrant/Code/framework/web/CController.php(291): CFilterChain->run()
+#9 /home/vagrant/Code/framework/web/CController.php(265): CarController->runActionWithFilters()
+#10 /home/vagrant/Code/framework/web/CWebApplication.php(282): CarController->run()
+#11 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#12 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#13 /home/vagrant/Code/carsnru/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/car/create
+in /home/vagrant/Code/carsnru/protected/controllers/CarController.php (67)
+in /home/vagrant/Code/carsnru/index.php (13)
+2015/12/10 18:46:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/1449411974.jpg".' in /home/vagrant/Code/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/14494119...')
+#1 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/1449411974.jpg
+HTTP_REFERER=http://car.loc/index.php/car/create
+---
+2015/12/10 18:47:35 [warning] [application] Failed to set unsafe attribute "file" of "File".
+in /home/vagrant/Code/carsnru/protected/controllers/CarController.php (40)
+in /home/vagrant/Code/carsnru/index.php (13)
+2015/12/10 18:47:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/1449411974.jpg".' in /home/vagrant/Code/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/14494119...')
+#1 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/1449411974.jpg
+HTTP_REFERER=http://car.loc/index.php/car/create
+---
+2015/12/10 18:47:44 [warning] [application] Failed to set unsafe attribute "file" of "File".
+in /home/vagrant/Code/carsnru/protected/controllers/CarController.php (40)
+in /home/vagrant/Code/carsnru/index.php (13)
+2015/12/10 18:47:46 [warning] [application] Failed to set unsafe attribute "file" of "File".
+in /home/vagrant/Code/carsnru/protected/controllers/CarController.php (40)
+in /home/vagrant/Code/carsnru/index.php (13)
+2015/12/10 18:47:48 [warning] [application] Failed to set unsafe attribute "file" of "File".
+in /home/vagrant/Code/carsnru/protected/controllers/CarController.php (40)
+in /home/vagrant/Code/carsnru/index.php (13)
+2015/12/10 18:47:50 [warning] [application] Failed to set unsafe attribute "file" of "File".
+in /home/vagrant/Code/carsnru/protected/controllers/CarController.php (40)
+in /home/vagrant/Code/carsnru/index.php (13)
+2015/12/10 18:47:52 [warning] [application] Failed to set unsafe attribute "file" of "File".
+in /home/vagrant/Code/carsnru/protected/controllers/CarController.php (40)
+in /home/vagrant/Code/carsnru/index.php (13)
+2015/12/10 18:47:54 [warning] [application] Failed to set unsafe attribute "file" of "File".
+in /home/vagrant/Code/carsnru/protected/controllers/CarController.php (40)
+in /home/vagrant/Code/carsnru/index.php (13)
+2015/12/10 18:47:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/1449411974.jpg".' in /home/vagrant/Code/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/14494119...')
+#1 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/1449411974.jpg
+HTTP_REFERER=http://car.loc/index.php/car/create
+---
+2015/12/10 18:48:17 [warning] [application] Failed to set unsafe attribute "file" of "File".
+in /home/vagrant/Code/carsnru/protected/controllers/CarController.php (40)
+in /home/vagrant/Code/carsnru/index.php (13)
+2015/12/10 18:48:18 [warning] [application] Failed to set unsafe attribute "file" of "File".
+in /home/vagrant/Code/carsnru/protected/controllers/CarController.php (40)
+in /home/vagrant/Code/carsnru/index.php (13)
+2015/12/10 18:48:19 [warning] [application] Failed to set unsafe attribute "file" of "File".
+in /home/vagrant/Code/carsnru/protected/controllers/CarController.php (40)
+in /home/vagrant/Code/carsnru/index.php (13)
+2015/12/10 18:48:19 [warning] [application] Failed to set unsafe attribute "file" of "File".
+in /home/vagrant/Code/carsnru/protected/controllers/CarController.php (40)
+in /home/vagrant/Code/carsnru/index.php (13)
+2015/12/10 18:48:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/1449411974.jpg".' in /home/vagrant/Code/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/14494119...')
+#1 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/1449411974.jpg
+HTTP_REFERER=http://car.loc/index.php/car/create
+---
+2015/12/10 18:48:38 [warning] [application] Failed to set unsafe attribute "file" of "File".
+in /home/vagrant/Code/carsnru/protected/controllers/CarController.php (40)
+in /home/vagrant/Code/carsnru/index.php (13)
+2015/12/10 18:48:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/1449411974.jpg".' in /home/vagrant/Code/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/14494119...')
+#1 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/1449411974.jpg
+HTTP_REFERER=http://car.loc/index.php/car/create
+---
+2015/12/10 18:48:41 [warning] [application] Failed to set unsafe attribute "file" of "File".
+in /home/vagrant/Code/carsnru/protected/controllers/CarController.php (40)
+in /home/vagrant/Code/carsnru/index.php (13)
+2015/12/10 18:48:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/1449411974.jpg".' in /home/vagrant/Code/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/14494119...')
+#1 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/1449411974.jpg
+HTTP_REFERER=http://car.loc/index.php/car/create
+---
+2015/12/10 18:48:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/1449411974.jpg".' in /home/vagrant/Code/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/14494119...')
+#1 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/1449411974.jpg
+HTTP_REFERER=http://car.loc/index.php/car/admin
+---
+2015/12/10 18:49:15 [warning] [application] Failed to set unsafe attribute "file" of "File".
+in /home/vagrant/Code/carsnru/protected/controllers/CarController.php (40)
+in /home/vagrant/Code/carsnru/index.php (13)
+2015/12/10 18:49:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/1449411974.jpg".' in /home/vagrant/Code/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/14494119...')
+#1 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/1449411974.jpg
+HTTP_REFERER=http://car.loc/index.php/car/create
+---
+2015/12/10 18:49:20 [warning] [application] Failed to set unsafe attribute "file" of "File".
+in /home/vagrant/Code/carsnru/protected/controllers/CarController.php (40)
+in /home/vagrant/Code/carsnru/index.php (13)
+2015/12/10 18:49:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/1449411974.jpg".' in /home/vagrant/Code/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/14494119...')
+#1 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/1449411974.jpg
+HTTP_REFERER=http://car.loc/index.php/car/create
+---
+2015/12/10 18:49:25 [warning] [application] Failed to set unsafe attribute "file" of "File".
+in /home/vagrant/Code/carsnru/protected/controllers/CarController.php (40)
+in /home/vagrant/Code/carsnru/index.php (13)
+2015/12/10 18:49:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/1449411974.jpg".' in /home/vagrant/Code/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/14494119...')
+#1 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/1449411974.jpg
+HTTP_REFERER=http://car.loc/index.php/car/create
+---
+2015/12/10 18:49:52 [warning] [application] Failed to set unsafe attribute "file" of "File".
+in /home/vagrant/Code/carsnru/protected/controllers/CarController.php (40)
+in /home/vagrant/Code/carsnru/index.php (13)
+2015/12/10 18:49:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/1449411974.jpg".' in /home/vagrant/Code/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/14494119...')
+#1 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/1449411974.jpg
+HTTP_REFERER=http://car.loc/index.php/car/create
+---
+2015/12/10 18:50:41 [warning] [application] Failed to set unsafe attribute "file" of "File".
+in /home/vagrant/Code/carsnru/protected/controllers/CarController.php (40)
+in /home/vagrant/Code/carsnru/index.php (13)
+2015/12/10 18:51:02 [warning] [application] Failed to set unsafe attribute "file" of "File".
+in /home/vagrant/Code/carsnru/protected/controllers/CarController.php (40)
+in /home/vagrant/Code/carsnru/index.php (13)
+2015/12/10 18:51:45 [warning] [application] Failed to set unsafe attribute "file" of "File".
+in /home/vagrant/Code/carsnru/protected/controllers/CarController.php (40)
+in /home/vagrant/Code/carsnru/index.php (13)
+2015/12/10 18:51:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/1449411974.jpg".' in /home/vagrant/Code/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/14494119...')
+#1 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/1449411974.jpg
+HTTP_REFERER=http://car.loc/index.php/car/
+---
+2015/12/10 18:51:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/1449411974.jpg".' in /home/vagrant/Code/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/14494119...')
+#1 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/1449411974.jpg
+HTTP_REFERER=http://car.loc/index.php/car/create
+---
+2015/12/10 18:52:27 [warning] [application] Failed to set unsafe attribute "file" of "File".
+in /home/vagrant/Code/carsnru/protected/controllers/CarController.php (40)
+in /home/vagrant/Code/carsnru/index.php (13)
+2015/12/10 18:52:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/1449411974.jpg".' in /home/vagrant/Code/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/14494119...')
+#1 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/1449411974.jpg
+HTTP_REFERER=http://car.loc/index.php/car/
+---
+2015/12/10 18:52:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/1449411974.jpg".' in /home/vagrant/Code/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/14494119...')
+#1 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/1449411974.jpg
+HTTP_REFERER=http://car.loc/index.php/car/
+---
+2015/12/10 18:53:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/1449411974.jpg".' in /home/vagrant/Code/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/14494119...')
+#1 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/1449411974.jpg
+HTTP_REFERER=http://car.loc/index.php/car/create
+---
+2015/12/10 18:53:54 [warning] [application] Failed to set unsafe attribute "file" of "File".
+in /home/vagrant/Code/carsnru/protected/controllers/CarController.php (40)
+in /home/vagrant/Code/carsnru/index.php (13)
+2015/12/10 18:53:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/1449411974.jpg".' in /home/vagrant/Code/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/vagrant/Code/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/14494119...')
+#1 /home/vagrant/Code/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home/vagrant/Code/carsnru/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/1449411974.jpg
+HTTP_REFERER=http://car.loc/index.php/car/9
+---

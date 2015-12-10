@@ -26,7 +26,7 @@
                 <?php if (Yii::app()->user->getState('backEnd')) { ?>
                     <strong><?php echo Yii::app()->user->getMemberProfile()->position->name; ?></strong>
                 <?php } else { ?>
-                    <strong><?php echo Yii::app()->user->getMemberProfile()->position . ' ' . Yii::app()->user->getMemberProfile()->faculty; ?></strong>
+                    <strong><?php echo Yii::app()->user->getMemberProfile()->faculty; ?></strong>
                 <?php } ?>
                 <span><i class="fa fa-chevron-down"></i></span>
             </a>

@@ -4,7 +4,7 @@ class Car extends CarBase {
 
     public function rules() {
         return array(
-            array('type_car_id, license_no, date_registration, brand_id, car_no, engine_no, personnel_id, pic, create_at', 'required'),
+            array('type_car_id, license_no, date_registration, brand_id, car_no, engine_no, personnel_id, create_at', 'required'),
             array('brand_id, personnel_id', 'numerical', 'integerOnly' => true),
             array('license_no, car_no, engine_no', 'length', 'max' => 100),
             array('pic', 'length', 'max' => 255),
