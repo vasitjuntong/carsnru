@@ -76,7 +76,7 @@ $this->menu = array(
             ),
             array(
                 'name' => 'status',
-                'value' => Status::$paper[$model->status] . ' ('.$model->acceptDone->personnel->name.')',
+                'value' => Status::$paper[$model->status] . $model->acceptDone != null? ' ('.$model->acceptDone->personnel->name.')' : '',
             ),
             array(
                 'type' => 'raw',

@@ -91,7 +91,7 @@ $this->menu = array(
             ),
             array(
                 'name' => 'status',
-                'value' => Status::$paper[$model->status] . ' (' . $model->accept3->personnel->name . ')',
+                'value' => Status::$paper[$model->status] . $model->accept3 != null ? ' (' . $model->accept3->personnel->name . ')' : '',
             ),
             array(
                 'name' => 'create_at',
