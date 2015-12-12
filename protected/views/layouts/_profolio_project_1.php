@@ -1,3 +1,8 @@
+<style>
+    .fancybox-title{
+        color: #ffffff;
+    }
+</style>
 <div class="row">
     <div class="span3">
         <!-- Filter -->
