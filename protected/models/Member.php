@@ -1,8 +1,10 @@
 <?php
 
-class Member extends MemberBase {
+class Member extends MemberBase
+{
 
-    public function rules() {
+    public function rules()
+    {
         return array(
             array('name, address, tel, email, status, create_at', 'required'),
             array('status', 'numerical', 'integerOnly' => true),
@@ -12,25 +14,28 @@ class Member extends MemberBase {
         );
     }
 
-    public function relations() {
+    public function relations()
+    {
         return array(
             'paperApprovals' => array(self::HAS_MANY, 'PaperApproval', 'member_id'),
         );
     }
 
-    public function attributeLabels() {
+    public function attributeLabels()
+    {
         return array(
             'member_id' => 'รหัส',
-            'name' => 'ชื่อ - นามสกุล',
-            'address' => 'ที่อยู่',
-            'tel' => 'โทรศัพท์',
-            'email' => 'อีเมล์',
-            'status' => 'สถานะ',
+            'name'      => 'ชื่อ - นามสกุล',
+            'address'   => 'ที่อยู่',
+            'tel'       => 'โทรศัพท์',
+            'email'     => 'อีเมล์',
+            'status'    => 'สถานะ',
             'create_at' => 'สร้างเมื่อ',
         );
     }
 
-    public function scopes() {
+    public function scopes()
+    {
         return array(
             'member' => array(
                 'condition' => 't.status = 3',
@@ -38,7 +43,8 @@ class Member extends MemberBase {
         );
     }
 
-    public function search() {
+    public function search()
+    {
         $criteria = new CDbCriteria;
 
         $criteria->compare('member_id', $this->member_id);
@@ -50,14 +56,15 @@ class Member extends MemberBase {
         $criteria->compare('create_at', $this->create_at, true);
 
         return new CActiveDataProvider($this, array(
-            'criteria' => $criteria,
+            'criteria'   => $criteria,
             'pagination' => array(
                 'pageSize' => Yii::app()->params['pageSize'],
             ),
         ));
     }
 
-    public static function model($className = __CLASS__) {
+    public static function model($className = __CLASS__)
+    {
         return parent::model($className);
     }
 
