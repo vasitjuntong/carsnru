@@ -66,7 +66,7 @@ class Personnel extends PersonnelBase {
                 'condition' => 't.status = 1',
             ),
             'driver' => array(
-                'condition' => 't.position_id <= 3',
+                'condition' => 't.position_id in(1, 2, 3, 7)',
             ),
             'bossCar' => array(
                 'condition' => 't.position_id = 1',

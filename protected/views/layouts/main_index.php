@@ -85,7 +85,6 @@
 
     </head>
 
-
     <body>
 
         <!-- This section is for Splash Screen -->
@@ -287,11 +286,9 @@
         </div>
         <!-- End About Section -->
 
-
         <!-- PR Section -->
         <?php $this->renderPartial('//layouts/_pr'); ?>
         <!-- End PR Section -->
-
 
         <!-- Twitter Feed -->
         <div id="twitter-feed" class="page-alternate">
@@ -309,8 +306,6 @@
             </div>
         </div>
         <!-- End Twitter Feed -->
-
-
 
         <!-- Contact Section -->
         <div id="contact" class="page">
@@ -376,11 +371,6 @@
         </div>
         <!-- End Contact Section -->
 
-
-
-
-
-
         <!-- Footer -->
         <footer>
             <p class="credits">&copy; 2014  <a href="#/" title="mixed system co.,ltd."></a> <a  >ระบบบริหารจัดการสารสนเทศ หน่วยยานพาหนะ มหาวิทยาลัยราชภัฏสกลนคร</a></p>
@@ -392,7 +382,6 @@
             <i class="font-icon-arrow-simple-up"></i>
         </a>
         <!-- End Back to Top -->
-
 
         <!-- Js -->
         <!--<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>  jQuery Core -->
