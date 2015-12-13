@@ -71,7 +71,7 @@ class CarController extends Controller {
         // Uncomment the following line if AJAX validation is needed
          $this->performAjaxValidation($model);
 
-        $model->date_registration = Tools::DateTimeToShow($model->date_registration, '/');
+        $model->date_registration = Tools::DateTimeToShow($model->date_registration, '/', false);
         if (isset($_POST['Car']) && isset($_POST['File'])) {
             $model->attributes = $_POST['Car'];
             $file->attributes = $_POST['File'];

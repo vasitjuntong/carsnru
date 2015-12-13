@@ -137,7 +137,7 @@ $form = $this->beginWidget('CActiveForm', array(
     <div class="form-group">
         <div class="col-lg-offset-2 col-lg-4">
             <?php
-            echo CHtml::image(Yii::app()->params['pathUpload'] . $model->pic, '', array(
+            echo CHtml::image(Yii::app()->params['pathUploadToShow'] . $model->pic, '', array(
 //                'style' => 'width: 200px;',
                 'class' => 'form_image',
             ));

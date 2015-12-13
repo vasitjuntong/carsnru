@@ -106,6 +106,18 @@
                 <?php echo date('h : i a', strtotime($model->time_start)); ?>
             </div>
         </div>
+        <div class="form-group">
+            <div class="col-lg-2 text-muted">
+                <?php echo $model->getAttributeLabel('file'); ?>
+            </div>
+            <div class="col-lg-10">
+                <?php
+                echo CHtml::link($model->file, Yii::app()->params['pathUploadToShow'] . $model->file, array(
+                    'target' => '_blank',
+                ));
+                ?>
+            </div>
+        </div>
         <hr/>
         <?php if ($model->paperDetailAccept != null) { ?>
             <div class = "form-group">
