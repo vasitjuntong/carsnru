@@ -262,7 +262,7 @@
                                 <span class="overlay-img"></span>
                                 <span class="overlay-text-thumb">ผู้ปฏิบัติงานบริหาร</span>
                             </div>
-                            <img src="/_include/img/profile/profile-03.jpg" alt="Joshua Insanus">
+                            <img src="/_include/img/member3.jpg" alt="Joshua Insanus">
                         </div>
                         <h3 class="profile-name">นางสาวนันท์นภัส โถบำรุง</h3>
                         <p class="profile-description">
