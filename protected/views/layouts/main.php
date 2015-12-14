@@ -57,6 +57,9 @@
             table.detail-view tr.odd {
                 background: none repeat scroll 0 0 #EEEEEE;
             }
+            form label{
+                color: #000000;
+            }
         </style>
 
     </head>

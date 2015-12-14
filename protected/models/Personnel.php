@@ -82,7 +82,7 @@ class Personnel extends PersonnelBase {
 
     public function search() {
         $criteria = new CDbCriteria;
-        $criteria->scopes = array('desc');
+        // $criteria->scopes = array('desc');
 
         $criteria->compare('personnel_id', $this->personnel_id);
         $criteria->compare('name', $this->name, true);

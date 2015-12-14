@@ -24,7 +24,11 @@ foreach ($model as $m) {
     $html .= '<td>' . $m->paper_no . '</td>';
     $html .= '<td>' . $m->go . '</td>';
     $html .= '<td>' . $m->member->name . '</td>';
-    $html .= '<td>' . $m->paperDetailAccept->car->license_no . '</td>';
+    if($m->paperDetailAccept != null){
+        $html .= '<td>' . $m->paperDetailAccept->car->license_no . '</td>';
+    } else {
+        $html .= '<td>-</td>';
+    }
     $html .= '<td>' . Status::$paper[$m->status] . '</td>';
     $html .= '</tr>';
     $n++;

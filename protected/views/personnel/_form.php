@@ -24,7 +24,7 @@ $form = $this->beginWidget('CActiveForm', array(
         'class' => 'col-lg-2 control-label',
     ));
     ?>
-    <div class="col-lg-2">
+    <div class="col-lg-3">
         <?php
         echo $form->textField($model, 'username', array(
             'maxlength' => 12,
@@ -41,7 +41,7 @@ $form = $this->beginWidget('CActiveForm', array(
         'class' => 'col-lg-2 control-label',
     ));
     ?>
-    <div class="col-lg-2">
+    <div class="col-lg-3">
         <?php
         echo $form->passwordField($model, 'password', array(
             'maxlength' => 12,
@@ -75,7 +75,7 @@ $form = $this->beginWidget('CActiveForm', array(
         'class' => 'col-lg-2 control-label',
     ));
     ?>
-    <div class="col-lg-2">
+    <div class="col-lg-3">
         <?php
         echo $form->dropDownList($model, 'position_id', Lists::position(), array(
             'empty' => $this->labelController['messageSelect'],
@@ -92,7 +92,7 @@ $form = $this->beginWidget('CActiveForm', array(
         'class' => 'col-lg-2 control-label',
     ));
     ?>
-    <div class="col-lg-1">
+    <div class="col-lg-3">
         <?php
         echo $form->textField($model, 'tel', array(
             'maxlength' => 10,
