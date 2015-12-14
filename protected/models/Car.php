@@ -27,7 +27,7 @@ class Car extends CarBase
     {
         return array(
             'desc'       => array(
-                'order' => 't.create_at desc',
+                'order' => 't.car_id desc',
             ),
             'notWorking' => array(
                 'condition' => 't.status = 0',
