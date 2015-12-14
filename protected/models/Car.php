@@ -27,7 +27,7 @@ class Car extends CarBase
     {
         return array(
             'desc'       => array(
-                'order' => 't.car_id desc',
+                'order' => 't.create_at desc',
             ),
             'notWorking' => array(
                 'condition' => 't.status = 0',
@@ -75,6 +75,7 @@ class Car extends CarBase
         $criteria = new CDbCriteria;
 
         $criteria->with = array('typeCar');
+        $criteria->scopes = array('desc');
 
         $criteria->compare('car_id', $this->car_id);
         $criteria->compare('typeCar.name', $this->type_car_id, true);
