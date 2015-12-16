@@ -45,8 +45,8 @@ class Car extends CarBase
     {
         return array(
             'repairs'          => array(self::HAS_MANY, 'Repair', 'car_id'),
-            'paperApproval'    => array(self::HAS_MANY, 'PaperApproval', 'car_id'),
-            'paperApprovalBus' => array(self::HAS_MANY, 'PaperApprovalBus', 'car_id'),
+            'paperDetailAccept'    => array(self::HAS_MANY, 'PaperDetailAccept', 'car_id'),
+            'paperDetailAcceptBus' => array(self::HAS_MANY, 'PaperDetailBusAccept', 'car_id'),
             'personnel'        => array(self::BELONGS_TO, 'Personnel', 'personnel_id'),
             'brand'            => array(self::BELONGS_TO, 'Brand', 'brand_id'),
             'personnels'       => array(self::HAS_MANY, 'Personnel', 'car_id'),
